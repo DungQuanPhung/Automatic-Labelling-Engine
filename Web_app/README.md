@@ -2,11 +2,11 @@
 
 Web application cho hệ thống Aspect-Based Sentiment Analysis (ABSA) sử dụng FastAPI backend và giao diện web hiện đại.
 
-## 📋 Tổng quan
+## Tổng quan
 
 Web app này cung cấp giao diện người dùng trực quan để phân tích cảm xúc theo khía cạnh (ABSA) cho domain khách sạn. Hệ thống sử dụng các mô hình AI tiên tiến như Qwen, RoBERTa, và DeBERTa để trích xuất và phân loại các khía cạnh, ý kiến, và cảm xúc từ đánh giá của khách hàng.
 
-## 🏗️ Kiến trúc
+## Kiến trúc
 
 ### Backend (FastAPI)
 - **API Server**: Xử lý requests và responses
@@ -19,7 +19,7 @@ Web app này cung cấp giao diện người dùng trực quan để phân tích
 - Word cloud visualization
 - Statistics và metrics display
 
-## 📁 Cấu trúc Project
+## Cấu trúc Project
 
 ```
 Web_app/
@@ -36,7 +36,7 @@ Web_app/
 └── README.md                          # Documentation
 ```
 
-## 🚀 Cài đặt
+## Cài đặt
 
 ### 1. Cài đặt Dependencies
 
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 - **Category Model**: `roberta_lora_category_goal/`
 - **Polarity Model**: `deberta_lora_polarity_goal_distilbert/`
 
-## ▶️ Chạy Application
+## Chạy Application
 
 ### Khởi động Server
 
@@ -70,7 +70,7 @@ Mở file `index.html` trong trình duyệt hoặc truy cập:
 http://localhost:8000
 ```
 
-## 📖 API Endpoints
+## API Endpoints
 
 ### 1. Health Check
 ```
@@ -128,7 +128,7 @@ file: reviews.csv (hoặc .txt)
 
 Response: JSON với kết quả phân tích cho từng review
 
-## 🔧 Configuration
+## Configuration
 
 File `config.py` chứa các cấu hình quan trọng:
 
@@ -161,7 +161,7 @@ QWEN_N_THREADS = 8          # CPU threads
 DEVICE = "cuda"             # cuda hoặc cpu
 ```
 
-## 💡 Modules Chi tiết
+## Modules Chi tiết
 
 ### 1. **api.py** - FastAPI Server
 - Khởi tạo FastAPI app với CORS middleware
@@ -204,15 +204,15 @@ DEVICE = "cuda"             # cuda hoặc cpu
 
 ### 8. **index.html** - Frontend Dashboard
 Features:
-- 🎨 Modern UI với gradient effects
-- 📊 Real-time analysis results
-- ☁️ Word cloud visualization
-- 📈 Statistics display
-- 🎯 Category và polarity filters
-- 📤 CSV upload support
-- 💾 Export results
+- Modern UI với gradient effects
+- Real-time analysis results
+- Word cloud visualization
+- Statistics display
+- Category và polarity filters
+- CSV upload support
+- Export results
 
-## 📊 Output Format
+## Output Format
 
 Kết quả phân tích bao gồm các trường:
 
@@ -226,7 +226,7 @@ Kết quả phân tích bao gồm các trường:
 | `Polarity` | Polarity (Positive/Negative/Neutral) |
 | `Polarity Score` | Confidence score cho polarity (0-1) |
 
-## 🎯 Use Cases
+## Use Cases
 
 ### 1. Single Text Analysis
 Phân tích một câu review đơn lẻ để hiểu chi tiết các aspects và cảm xúc.
@@ -240,7 +240,7 @@ Tích hợp vào hệ thống để phân tích real-time customer feedback.
 ### 4. Statistical Analysis
 Tổng hợp thống kê về các categories và polarities để có insights.
 
-## 🔍 Examples
+## Examples
 
 ### Example 1: Positive Review
 ```
@@ -278,7 +278,7 @@ Output:
   - Polarity: Negative
 ```
 
-## ⚙️ Advanced Configuration
+## Advanced Configuration
 
 ### Tối ưu Performance
 
@@ -303,7 +303,7 @@ Output:
 DEBUG_MODE = True  # Enable verbose logging
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: Models không load được
 **Solution**: 
@@ -327,7 +327,7 @@ DEBUG_MODE = True  # Enable verbose logging
 - CORS đã được cấu hình trong `api.py`
 - Nếu vẫn có lỗi, kiểm tra browser console
 
-## 📝 Notes
+## Notes
 
 - Web app hỗ trợ cả Vietnamese và English inputs
 - Tự động dịch sang tiếng Anh nếu cần thiết
@@ -335,14 +335,14 @@ DEBUG_MODE = True  # Enable verbose logging
 - Hỗ trợ batch processing với auto-save
 - Real-time progress updates cho batch processing
 
-## 🔐 Security Notes
+## Security Notes
 
 - Không expose sensitive model files
 - Validate input trước khi xử lý
 - Limit file upload sizes
 - Sanitize output trước khi trả về client
 
-## 📚 Dependencies
+## Dependencies
 
 Các dependencies chính:
 - `fastapi`: Web framework
@@ -356,19 +356,10 @@ Các dependencies chính:
 
 Xem đầy đủ trong `requirements.txt`
 
-## 🤝 Contributing
+## Contributing
 
 Khi thêm features mới:
 1. Tuân thủ cấu trúc code hiện tại
 2. Update API documentation
 3. Test thoroughly với các edge cases
-4. Update README nếu cần
-
-## 📄 License
-
-Xem LICENSE file trong repository chính.
-
----
-
-**Developed for Hotel Review Analysis**
-*Powered by Qwen, RoBERTa, and DeBERTa*
+4. Update README
