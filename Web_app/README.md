@@ -33,7 +33,7 @@ Web_app/
 ├── Extract_Polarity.py                 # Phát hiện polarity
 ├── Calculate_Metrics_Evaluation.py     # Đánh giá metrics
 ├── requirements.txt                    # Dependencies
-└── README.md                          # File này
+└── README.md                          # Documentation
 ```
 
 ## 🚀 Cài đặt
@@ -79,7 +79,8 @@ GET /
 Response:
 ```json
 {
-  "message": "ABSA API is running"
+  "message": "Hotel ABSA Engine is Running",
+  "status": "ready"
 }
 ```
 
@@ -98,34 +99,34 @@ Response:
 [
   {
     "clause": "The room was clean and spacious",
-    "term": "room",
-    "opinion": "clean and spacious",
-    "category": "Facility",
+    "Term": "room",
+    "Opinion": "clean and spacious",
+    "Category": "Facility",
     "Category Score": 0.95,
-    "polarity": "Positive",
-    "polarity_score": 0.98
+    "Polarity": "Positive",
+    "Polarity Score": 0.98
   },
   {
     "clause": "the service was slow",
-    "term": "service",
-    "opinion": "slow",
-    "category": "Service",
+    "Term": "service",
+    "Opinion": "slow",
+    "Category": "Service",
     "Category Score": 0.92,
-    "polarity": "Negative",
-    "polarity_score": 0.87
+    "Polarity": "Negative",
+    "Polarity Score": 0.87
   }
 ]
 ```
 
-### 3. Upload CSV
+### 3. Upload File
 ```
-POST /upload-csv
+POST /upload
 Content-Type: multipart/form-data
 
-file: reviews.csv
+file: reviews.csv (hoặc .txt)
 ```
 
-Response: CSV file với kết quả phân tích
+Response: JSON với kết quả phân tích cho từng review
 
 ## 🔧 Configuration
 
@@ -133,9 +134,10 @@ File `config.py` chứa các cấu hình quan trọng:
 
 ### Model Paths
 ```python
-QWEN_MODEL_PATH = "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf"
-CATEGORY_MODEL_PATH = "roberta_lora_category_goal"
-POLARITY_MODEL_PATH = "deberta_lora_polarity_goal_distilbert"
+# Actual implementation uses os.path.join with BASE_DIR
+QWEN_MODEL_PATH = os.path.join(BASE_DIR, "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf")
+CATEGORY_MODEL_PATH = os.path.join(BASE_DIR, "roberta_lora_category_goal")
+POLARITY_MODEL_PATH = os.path.join(BASE_DIR, "deberta_lora_polarity_goal_distilbert")
 ```
 
 ### Batch Sizes
@@ -217,12 +219,12 @@ Kết quả phân tích bao gồm các trường:
 | Field | Description |
 |-------|-------------|
 | `clause` | Clause được trích xuất từ câu |
-| `term` | Aspect term (ví dụ: "room", "service") |
-| `opinion` | Opinion expression (ví dụ: "clean", "slow") |
-| `category` | Category (Service/Amenity/Facility/Experience) |
+| `Term` | Aspect term (ví dụ: "room", "service") |
+| `Opinion` | Opinion expression (ví dụ: "clean", "slow") |
+| `Category` | Category (Service/Amenity/Facility/Experience) |
 | `Category Score` | Confidence score cho category (0-1) |
-| `polarity` | Polarity (Positive/Negative/Neutral) |
-| `polarity_score` | Confidence score cho polarity (0-1) |
+| `Polarity` | Polarity (Positive/Negative/Neutral) |
+| `Polarity Score` | Confidence score cho polarity (0-1) |
 
 ## 🎯 Use Cases
 
