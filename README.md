@@ -2,7 +2,7 @@
 
 Hệ thống phân tích cảm xúc theo khía cạnh cho domain khách sạn sử dụng LLM (Qwen/Phi-3) và RoBERTa.
 
-## 📁 Cấu trúc Project
+## Cấu trúc Project
 
 ```
 absa_project/
@@ -20,13 +20,13 @@ absa_project/
 └── README.md               # File này
 ```
 
-## 🚀 Cài đặt
+## Cài đặt
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 📖 Chức năng từng module
+## Chức năng từng module
 
 ### 1. **config.py**
 Chứa tất cả cấu hình:
@@ -82,7 +82,7 @@ Pipeline chính:
 - `evaluate_absa()`: Đánh giá toàn diện
 - `analyze_errors()`: Phân tích lỗi
 
-## 💡 Cách sử dụng
+## Cách sử dụng
 
 ### 1. Training Category Classifier
 
@@ -132,7 +132,7 @@ from main import main_evaluate_results
 results, errors = main_evaluate_results()
 ```
 
-## 🔧 Custom Usage
+## Custom Usage
 
 ### Sử dụng từng component riêng lẻ:
 
@@ -156,7 +156,7 @@ for c in clauses:
     print(f"Term: {c['term']}, Opinion: {c['opinion']}")
 ```
 
-## 📊 Output Format
+## Output Format
 
 Kết quả được lưu dưới dạng CSV với các columns:
 - `sentence_index`: Chỉ số câu
@@ -168,7 +168,7 @@ Kết quả được lưu dưới dạng CSV với các columns:
 - `polarity`: Polarity (Positive, Negative, Neutral)
 - `polarity_score`: Confidence score
 
-## 🎯 Metrics
+## Metrics
 
 ### Non-discrete (Term, Opinion):
 - Exact Match F1
@@ -182,7 +182,7 @@ Kết quả được lưu dưới dạng CSV với các columns:
 - Precision
 - Recall
 
-## ⚙️ Configuration
+## Configuration
 
 Có thể thay đổi cấu hình trong `config.py`:
 
@@ -206,14 +206,14 @@ TRAINING_CONFIG = {
 }
 ```
 
-## 📝 Notes
+## Notes
 
 - Pipeline tự động dịch câu sang tiếng Anh nếu cần
 - Hỗ trợ auto-save theo batch để tránh mất dữ liệu
 - Có thể chọn split hoặc không split câu thành clauses
 - Hỗ trợ cả Qwen và Phi-3 models
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Out of Memory:
 - Giảm `batch_size` trong config
