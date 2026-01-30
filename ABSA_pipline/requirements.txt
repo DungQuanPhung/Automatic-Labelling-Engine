@@ -1,0 +1,28 @@
+# ABSA Project Requirements
+
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.30.0
+peft>=0.4.0
+accelerate>=0.20.0
+bitsandbytes>=0.40.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.23.0
+datasets>=2.12.0
+
+# NLP utilities
+langdetect>=1.0.9
+sentence-transformers>=2.2.0
+
+# Evaluation metrics
+scikit-learn>=1.2.0
+rouge-score>=0.1.2
+sacrebleu>=2.3.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Optional: for Colab
+# google-colab
