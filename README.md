@@ -1,3 +1,6 @@
+# Họ tên
+Phùng Dũng Quân - 22280073
+Nguyễn Hồ Tuyên - 22280103 
 # ABSA (Aspect-Based Sentiment Analysis) Pipeline
 
 Hệ thống phân tích cảm xúc theo khía cạnh cho domain khách sạn sử dụng LLM (Qwen/Phi-3) và RoBERTa.
@@ -225,3 +228,4 @@ TRAINING_CONFIG = {
 - Đảm bảo đã cài đủ dependencies
 
 ## Các file code trong folder ABSA_pipeline được viết lại từ file code chính là llm_final.py
+
