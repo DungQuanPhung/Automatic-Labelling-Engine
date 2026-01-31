@@ -223,3 +223,5 @@ TRAINING_CONFIG = {
 - Kiểm tra GPU availability
 - Verify model IDs trong config
 - Đảm bảo đã cài đủ dependencies
+
+## Các file code trong folder ABSA_pipeline được viết lại từ file code chính là llm_final.py
