@@ -1,0 +1,850 @@
+,sentence_index,sentence_original,clause,term,opinion,category,polarity,polarity_score
+0,1,the right choice,the right choice,choice,right,Experience,Positive,0.9795
+1,2,view over the city center and the chilling new subway line,view over the city center,view,over the city center,Experience,Positive,0.8861
+2,2,view over the city center and the chilling new subway line,the chilling new subway line,subway line,chilling,Amenity,Negative,0.9462
+3,4,the host was so friendly i got back to the hotel around 1 00 a m and he was still waiting for me to show him how to check in,the host was so friendly,host,friendly,Service,Positive,0.9855
+4,4,the host was so friendly i got back to the hotel around 1 00 a m and he was still waiting for me to show him how to check in,i got back to the hotel around 1 00 a m and he was still waiting for me to show him how to check in,host,waiting,Service,Negative,0.8312
+5,7,the owner is enthusiastic sweet fully furnished loves the big screen tv,the owner is enthusiastic,owner,enthusiastic,Service,Positive,0.9685
+6,7,the owner is enthusiastic sweet fully furnished loves the big screen tv,sweet,owner,sweet,Service,Positive,0.9871
+7,7,the owner is enthusiastic sweet fully furnished loves the big screen tv,fully furnished,,fully furnished,Facility,Positive,0.9944
+8,7,the owner is enthusiastic sweet fully furnished loves the big screen tv,loves the big screen tv,tv,loves,Facility,Positive,0.9911
+9,9,very good,very good,,very good,Experience,Positive,0.9977
+10,18,it s fully equipped,it s fully equipped,,fully equipped,Facility,Positive,0.9961
+11,22,very good,very good,,very good,Experience,Positive,0.9977
+12,24,that s great,that s great,,great,Experience,Positive,0.9853
+13,29,very good,very good,,very good,Experience,Positive,0.9977
+14,35,loaded with all the equipment we need,loaded with all the equipment we need,equipment,loaded with all,Facility,Positive,0.9919
+15,38,very good,very good,,very good,Experience,Positive,0.9977
+16,39,clean comfortable with a nice view,clean comfortable with a nice view,view,nice view,Experience,Positive,0.9979
+17,43,next to minor 2 is located very cheap seafood restaurant i ve been there at least 3 times,next to minor 2 is located very cheap seafood restaurant,restaurant,very cheap,Amenity,Positive,0.7882
+18,43,next to minor 2 is located very cheap seafood restaurant i ve been there at least 3 times,i ve been there at least 3 times,restaurant,,Loyalty,Neutral,0.9763
+19,44,you have to enjoy the pool on the roof as well,you have to enjoy the pool on the roof as well,pool,enjoy,Facility,Positive,0.9744
+20,46,excellent stay,excellent stay,stay,excellent,Experience,Positive,0.9927
+21,47,perfect location great facilities everything was cleaned and well prepared,perfect location,location,perfect,Amenity,Positive,0.9917
+22,47,perfect location great facilities everything was cleaned and well prepared,great facilities,facilities,great,Facility,Positive,0.9978
+23,47,perfect location great facilities everything was cleaned and well prepared,everything was cleaned and well prepared,,"cleaned, well prepared",Facility,Positive,0.997
+24,52,really good place to stay during your visit to hcmc,really good place to stay during your visit to hcmc,place,good,Branding,Positive,0.9803
+25,54,lovely stay,lovely stay,stay,lovely,Experience,Positive,0.9942
+26,56,close to the landmark 81 bulding and the new metro,close to the landmark 81 bulding and the new metro,,,Amenity,Positive,0.8687
+27,58,diny is a really nice guy and very helpful,diny is a really nice guy,,nice,Service,Positive,0.9637
+28,58,diny is a really nice guy and very helpful,very helpful,,very helpful,Service,Positive,0.9962
+29,63,diny is a very kind person always helpful in every matter,diny is a very kind person,,very kind,Service,Positive,0.9942
+30,63,diny is a very kind person always helpful in every matter,always helpful in every matter,,helpful,Service,Positive,0.9965
+31,64,in our case he was willing to arrange an earlier check in and even offered to change the apartment due to our longer stay,in our case he was willing to arrange an earlier check in,,willing to arrange,Service,Positive,0.9934
+32,64,in our case he was willing to arrange an earlier check in and even offered to change the apartment due to our longer stay,even offered to change the apartment due to our longer stay,,offered to change the apartment,Facility,Positive,0.8676
+33,66,we could contact diny at any time and he was always ready to help and share his knowledge whether it was about local attractions good restaurants and street food spots or transportation options,we could contact diny at any time and he was always ready to help,,ready to help,Service,Positive,0.9952
+34,66,we could contact diny at any time and he was always ready to help and share his knowledge whether it was about local attractions good restaurants and street food spots or transportation options,he was always ready to help and share his knowledge,,"ready to help, share his knowledge",Service,Positive,0.9925
+35,66,we could contact diny at any time and he was always ready to help and share his knowledge whether it was about local attractions good restaurants and street food spots or transportation options,whether it was about local attractions good restaurants and street food spots or transportation options,"attraction,restaurant,street food,transportation","good, transportation options",Amenity,Positive,0.9676
+36,70,great apartment in a nice quiet residential area in ho chi minh city,great apartment in a nice quiet residential area in ho chi minh city,apartment,great,Branding,Positive,0.989
+37,72,just behind the apartment you walk down narrow roads and as it opens up you can see so many different food vendors selling their products and such cheap prices,just behind the apartment you walk down narrow roads,,behind the apartment,Amenity,Neutral,0.6132
+38,72,just behind the apartment you walk down narrow roads and as it opens up you can see so many different food vendors selling their products and such cheap prices,as it opens up you can see so many different food vendors selling their products,food vendors,many different,Amenity,Positive,0.7997
+39,72,just behind the apartment you walk down narrow roads and as it opens up you can see so many different food vendors selling their products and such cheap prices,and such cheap prices,prices,cheap,Amenity,Positive,0.9932
+40,73,the host is a great guy very accommodating and helpful will give you loads of tips of where to go and best way to get there etc,the host is a great guy,host,great,Service,Positive,0.9301
+41,73,the host is a great guy very accommodating and helpful will give you loads of tips of where to go and best way to get there etc,very accommodating,host,accommodating,Service,Positive,0.994
+42,73,the host is a great guy very accommodating and helpful will give you loads of tips of where to go and best way to get there etc,helpful,host,helpful,Service,Positive,0.9778
+43,73,the host is a great guy very accommodating and helpful will give you loads of tips of where to go and best way to get there etc,will give you loads of tips of where to go and best way to get there etc,host,give you loads of tips,Service,Positive,0.9877
+44,75,washing machine and dryer worked fine too as we used it to wash clothes,washing machine and dryer worked fine too as we used it to wash clothes,"washing machine,dryer",worked fine,Facility,Positive,0.7613
+45,79,didn t get to see the gym as it was closed for lunar new year,didn t get to see the gym as it was closed for lunar new year,gym,closed,Amenity,Negative,0.3907
+46,81,fantastic stay amazing host first class,fantastic stay,stay,fantastic,Experience,Positive,0.9953
+47,81,fantastic stay amazing host first class,amazing host,host,amazing,Service,Positive,0.9934
+48,81,fantastic stay amazing host first class,first class,,,Experience,Positive,0.9599
+49,82,excellent apartment with everything you need for a comfortable stay modern clean and nice comfortable bed etc,excellent apartment with everything you need for a comfortable stay,"apartment,stay","excellent,comfortable",Branding,Positive,0.9977
+50,82,excellent apartment with everything you need for a comfortable stay modern clean and nice comfortable bed etc,modern clean and nice comfortable bed etc,bed,"modern, clean, nice, comfortable",Facility,Positive,0.9981
+51,83,great facilities also with a 7 11 and larger mart onsite and a lovely rooftop pool to relax in,great facilities,facilities,great,Facility,Positive,0.9978
+52,83,great facilities also with a 7 11 and larger mart onsite and a lovely rooftop pool to relax in,also with a 7 11 and larger mart onsite,"7 11,mart",larger,Amenity,Positive,0.8544
+53,83,great facilities also with a 7 11 and larger mart onsite and a lovely rooftop pool to relax in,and a lovely rooftop pool to relax in,rooftop pool,lovely,Facility,Positive,0.9816
+54,87,nothing the stay was first class,nothing the stay was first class,stay,"nothing,first class",Experience,Negative,0.9876
+55,89,owner was brilliant helped us to find nice locations for new years and recommended places for us to visit through whatsapp,owner was brilliant,owner,brilliant,Service,Positive,0.9608
+56,89,owner was brilliant helped us to find nice locations for new years and recommended places for us to visit through whatsapp,helped us to find nice locations for new years,"owner,locations","helped us,nice",Service,Positive,0.9795
+57,89,owner was brilliant helped us to find nice locations for new years and recommended places for us to visit through whatsapp,recommended places for us to visit through whatsapp,places,recommended,Loyalty,Positive,0.8381
+58,97,the location was spot on just a short walk to landmark 81,the location was spot on,location,spot on,Amenity,Positive,0.9933
+59,97,the location was spot on just a short walk to landmark 81,just a short walk to landmark 81,location,short walk to landmark 81,Amenity,Positive,0.9374
+60,101,the washing machine and dryer in the apartment came in handy,the washing machine and dryer in the apartment came in handy,"washing machine,dryer",in handy,Facility,Positive,0.8358
+61,109,very spacious property with really good amenities incredible view of the city and a great pool to relax in when walking around gets too hot,very spacious property,property,very spacious,Branding,Positive,0.9972
+62,109,very spacious property with really good amenities incredible view of the city and a great pool to relax in when walking around gets too hot,really good amenities,amenities,good,Amenity,Positive,0.9957
+63,109,very spacious property with really good amenities incredible view of the city and a great pool to relax in when walking around gets too hot,incredible view of the city,view,incredible,Experience,Positive,0.9954
+64,109,very spacious property with really good amenities incredible view of the city and a great pool to relax in when walking around gets too hot,a great pool to relax in when walking around gets too hot,pool,great,Facility,Positive,0.7947
+65,111,lovely stay great host,lovely stay,stay,lovely,Experience,Positive,0.9942
+66,111,lovely stay great host,great host,host,great,Service,Positive,0.9848
+67,112,great place and location,great place,place,great,Branding,Positive,0.9912
+68,112,great place and location,great location,location,great,Amenity,Positive,0.9776
+69,121,our stay at diny s aparthotel was exceptional the room comes perfectly equipped for city exploration and the skyline view is stunning,our stay at diny s aparthotel was exceptional,stay,exceptional,Experience,Positive,0.9902
+70,121,our stay at diny s aparthotel was exceptional the room comes perfectly equipped for city exploration and the skyline view is stunning,the room comes perfectly equipped for city exploration,room,perfectly equipped,Facility,Positive,0.9547
+71,121,our stay at diny s aparthotel was exceptional the room comes perfectly equipped for city exploration and the skyline view is stunning,the skyline view is stunning,skyline view,stunning,Experience,Positive,0.9924
+72,124,what truly sets this place apart is diny himself,what truly sets this place apart is diny himself,place,apart,Branding,Positive,0.984
+73,132,we can see the landmark tower and other sight,we can see the landmark tower and other sight,"landmark tower,sight",can see,Experience,Neutral,0.6636
+74,133,the pool was nice too,the pool was nice too,pool,nice,Facility,Positive,0.9771
+75,135,landmark shopping mall is only a 7 minutes walk,landmark shopping mall is only a 7 minutes walk,landmark shopping mall,only a 7 minutes walk,Amenity,Positive,0.9084
+76,137,the neighborhood,the neighborhood,neighborhood,,Amenity,Neutral,0.7913
+77,140,thank you diny for being a wonderful host,thank you diny for being a wonderful host,host,wonderful,Service,Positive,0.9892
+78,142,zilch,zilch,,,Experience,Neutral,0.7559
+79,145,everything has been perfect,everything has been perfect,,perfect,Experience,Positive,0.9943
+80,150,we ll be back soon,we ll be back soon,,back soon,Loyalty,Positive,0.9722
+81,154,we had an amazing stay at the manor 2,we had an amazing stay at the manor 2,stay,amazing,Experience,Positive,0.9941
+82,158,the apartment was comfortable and had everything we needed,the apartment was comfortable,apartment,comfortable,Experience,Positive,0.996
+83,158,the apartment was comfortable and had everything we needed,had everything we needed,,had everything we needed,Experience,Positive,0.9873
+84,159,the rooftop pool was great never busy,the rooftop pool was great,pool,great,Facility,Positive,0.9818
+85,159,the rooftop pool was great never busy,never busy,pool,never busy,Amenity,Positive,0.9544
+86,163,i would highly recommend this aparthotel,i would highly recommend this aparthotel,aparthotel,highly recommend,Loyalty,Positive,0.9972
+87,164,it s perfect,it s perfect,it,perfect,Branding,Positive,0.9964
+88,165,cute clean room and fully functional kitchen with nice views,cute clean room,room,"cute,clean",Facility,Positive,0.9966
+89,165,cute clean room and fully functional kitchen with nice views,fully functional kitchen,kitchen,functional,Facility,Positive,0.9961
+90,165,cute clean room and fully functional kitchen with nice views,with nice views,view,nice,Experience,Positive,0.9865
+91,167,near landmark 81 and has a view of the tower,near landmark 81,,near,Amenity,Positive,0.7486
+92,167,near landmark 81 and has a view of the tower,has a view of the tower,,has a view of the tower,Experience,Positive,0.8577
+93,176,diny is very accommodating and helpful,diny is very accommodating,,very accommodating,Service,Positive,0.9897
+94,176,diny is very accommodating and helpful,diny is very helpful,,very helpful,Service,Positive,0.9858
+95,180,perfect i ll always stay here when i come to ho chi minh,perfect,,perfect,Experience,Positive,0.9956
+96,180,perfect i ll always stay here when i come to ho chi minh,i ll always stay here when i come to ho chi minh,,always stay here,Loyalty,Positive,0.8657
+97,181,i live in hotels around the world and am a genius l3 member of booking,i live in hotels around the world,hotel,around the world,Experience,Neutral,0.9312
+98,181,i live in hotels around the world and am a genius l3 member of booking,am a genius l3 member of booking,l3 member of booking,genius,Experience,Positive,0.7547
+99,183,this is the best value for money place i ve ever stayed,this is the best value for money place i ve ever stayed,place,best value for money,Amenity,Positive,0.9975
+100,184,it is spacious clean 10 mins grab from benh thanh market and best of all silent and night time,it is spacious,,spacious,Facility,Positive,0.9942
+101,184,it is spacious clean 10 mins grab from benh thanh market and best of all silent and night time,it is clean,,clean,Facility,Positive,0.9916
+102,184,it is spacious clean 10 mins grab from benh thanh market and best of all silent and night time,10 mins grab from benh thanh market,,10 mins grab,Amenity,Neutral,0.9806
+103,184,it is spacious clean 10 mins grab from benh thanh market and best of all silent and night time,and best of all silent and night time,night time,best of all silent,Experience,Positive,0.9578
+104,186,nothing negative to say especially when you consider the price point,nothing negative to say,,nothing negative,Experience,Positive,0.9748
+105,186,nothing negative to say especially when you consider the price point,especially when you consider the price point,price point,especially when you consider,Amenity,Neutral,0.9643
+106,189,diny the property owner was super helpful too,diny the property owner was super helpful too,,super helpful,Service,Positive,0.9649
+107,197,very good,very good,,very good,Experience,Positive,0.9977
+108,198,very friendly host great view of the city comfortable and close to most main attractions of the city,very friendly host,host,very friendly,Service,Positive,0.9805
+109,198,very friendly host great view of the city comfortable and close to most main attractions of the city,great view of the city,view,great,Experience,Positive,0.9947
+110,198,very friendly host great view of the city comfortable and close to most main attractions of the city,comfortable and close to most main attractions of the city,attraction,"comfortable,close",Amenity,Positive,0.9951
+111,200,the manor is a bit of an institution in saigon one of the first residence blocks built for the upmarket segment of binh thanh,the manor is a bit of an institution in saigon,manor,a bit of an institution,Amenity,Neutral,0.7403
+112,200,the manor is a bit of an institution in saigon one of the first residence blocks built for the upmarket segment of binh thanh,one of the first residence blocks built for the upmarket segment of binh thanh,residence block,built for the upmarket segment,Branding,Positive,0.5928
+113,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,plenty of strong hot water for the shower,hot water,plenty of strong,Facility,Positive,0.9855
+114,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,all the necessary kitchenware to be able to cook reheat simple meals,kitchenware,all the necessary,Facility,Positive,0.9442
+115,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,netflix on the tv,tv,,Service,Neutral,0.883
+116,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,both a washing machine and dryer,"washing machine,dryer",,Facility,Neutral,0.9695
+117,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,a vacuum cleaner,vacuum cleaner,,Facility,Neutral,0.7032
+118,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,full size fridge,fridge,full size,Facility,Positive,0.9183
+119,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,river and city views,river and city views,,Experience,Positive,0.907
+120,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,a lively market place in the warren behind the residences,market place,lively,Amenity,Positive,0.9249
+121,202,plenty of strong hot water for the shower all the necessary kitchenware to be able to cook reheat simple meals netflix on the tv both a washing machine and dryer a vacuum cleaner full size fridge river and city views a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised,a host that cannot do enough to make sure you are getting the value that is advertised,host,cannot do enough to make sure you are getting the value that is advertised,Service,Negative,0.7096
+122,203,nothing really,nothing really,,nothing really,Experience,Negative,0.7895
+123,206,everything great location diny was super friendly and communicative,everything great,,great,Experience,Positive,0.9881
+124,206,everything great location diny was super friendly and communicative,location,location,,Amenity,Neutral,0.5603
+125,206,everything great location diny was super friendly and communicative,diny was super friendly,,super friendly,Service,Positive,0.9826
+126,206,everything great location diny was super friendly and communicative,diny was communicative,,communicative,Service,Positive,0.9896
+127,215,beautiful apartment,beautiful apartment,apartment,beautiful,Branding,Positive,0.9934
+128,218,great place to stay a short ride into d1,great place to stay,place,great,Branding,Positive,0.9963
+129,218,great place to stay a short ride into d1,a short ride into d1,ride,short,Amenity,Positive,0.8437
+130,227,i love the washer dryer all in one,i love the washer dryer all in one,washer dryer,love,Facility,Positive,0.9821
+131,229,none of them,none of them,,,Loyalty,Negative,0.9377
+132,237,overall i am satisfied for my short time visit,overall i am satisfied for my short time visit,short time visit,satisfied,Experience,Positive,0.8251
+133,238,property is very clean and owner of the apartment is contacted very early through whatsapp and made check in very smoothly,property is very clean,property,very clean,Facility,Positive,0.9943
+134,238,property is very clean and owner of the apartment is contacted very early through whatsapp and made check in very smoothly,owner of the apartment is contacted very early through whatsapp,owner,early,Service,Positive,0.5856
+135,238,property is very clean and owner of the apartment is contacted very early through whatsapp and made check in very smoothly,made check in very smoothly,check in,very smoothly,Service,Positive,0.989
+136,241,very good,very good,,very good,Experience,Positive,0.9977
+137,243,this is the best place in the city,this is the best place in the city,place,best,Branding,Positive,0.997
+138,245,my recommendations,my recommendations,,,Loyalty,Positive,0.4615
+139,248,very good,very good,,very good,Experience,Positive,0.9977
+140,264,none of them,none of them,,,Loyalty,Negative,0.9377
+141,268,the property is very clean and in nice central location,the property is very clean,property,very clean,Facility,Positive,0.9969
+142,268,the property is very clean and in nice central location,the property is in nice central location,location,nice central,Amenity,Positive,0.9932
+143,277,great apartment excellent rooftop pool and view exceptional host,great apartment,apartment,great,Branding,Positive,0.977
+144,277,great apartment excellent rooftop pool and view exceptional host,excellent rooftop pool and view,"rooftop pool,view",excellent,Facility,Positive,0.9913
+145,277,great apartment excellent rooftop pool and view exceptional host,exceptional host,host,exceptional,Service,Positive,0.9921
+146,280,all good,all good,,good,Experience,Positive,0.8809
+147,281,great stay with a great host,great stay,stay,great,Experience,Positive,0.995
+148,281,great stay with a great host,great host,host,great,Service,Positive,0.9848
+149,286,he even came to our room to help us book a boat when we were struggling with the translation,he even came to our room to help us book a boat when we were struggling with the translation,,came to our room to help us book a boat,Service,Positive,0.829
+150,287,he was very helpful and dropped everything to help us out,he was very helpful,,very helpful,Service,Positive,0.9951
+151,287,he was very helpful and dropped everything to help us out,dropped everything to help us out,,dropped everything to help us out,Service,Positive,0.9566
+152,288,plus we were able to get early check in,plus we were able to get early check in,check in,early,Amenity,Positive,0.9885
+153,299,very comfortable stay,very comfortable stay,stay,very comfortable,Experience,Positive,0.9952
+154,301,danny is an amazing host and went out of his way to help us,danny is an amazing host,host,amazing,Service,Positive,0.9921
+155,301,danny is an amazing host and went out of his way to help us,went out of his way to help us,host,out of his way to help,Service,Positive,0.9809
+156,304,very good,very good,,very good,Experience,Positive,0.9977
+157,311,cozy stay,cozy stay,stay,cozy,Experience,Positive,0.991
+158,312,i enjoyed my stay here,i enjoyed my stay here,stay,enjoyed,Experience,Positive,0.9965
+159,313,good value for money and it has all the little thing you need like a washing machine hair dryer iron tv air con etc,good value for money,,good value for money,Amenity,Positive,0.987
+160,313,good value for money and it has all the little thing you need like a washing machine hair dryer iron tv air con etc,it has all the little thing you need like a washing machine hair dryer iron tv air con etc,washing machine hair dryer iron tv air con,has all the little thing you need,Facility,Positive,0.9864
+161,315,thank you again,thank you again,,,Service,Positive,0.9634
+162,317,easy check in by whatsapp,easy check in by whatsapp,check in,easy,Service,Positive,0.8855
+163,318,diny was very helpful suggesting places,diny was very helpful,,very helpful,Service,Positive,0.9824
+164,318,diny was very helpful suggesting places,suggesting places,place,suggesting,Loyalty,Positive,0.9132
+165,329,great location near landmark 81 sky tower and central park estate which boasts an amazing shopping centre and park right on the river,great location near landmark 81 sky tower and central park estate,location,"great,near",Amenity,Positive,0.9766
+166,329,great location near landmark 81 sky tower and central park estate which boasts an amazing shopping centre and park right on the river,which boasts an amazing shopping centre and park right on the river,"shopping centre,park",amazing,Amenity,Positive,0.905
+167,334,the host was very nice and helpful,the host was very nice,host,very nice,Service,Positive,0.9878
+168,334,the host was very nice and helpful,the host was very helpful,host,very helpful,Service,Positive,0.9881
+169,341,tout,tout,,tout,Branding,Positive,0.5979
+170,345,i highly recommend it,i highly recommend it,,highly recommend,Loyalty,Positive,0.9948
+171,346,the room was clean and furnished,the room was clean and furnished,room,"clean, furnished",Facility,Positive,0.9968
+172,347,the contact with owner diny was very pleasant and he was extremely helpful,the contact with owner diny was very pleasant,contact with owner,pleasant,Service,Positive,0.9941
+173,347,the contact with owner diny was very pleasant and he was extremely helpful,he was extremely helpful,owner,extremely helpful,Service,Positive,0.9946
+174,350,very friendly and helpful host our flight was delayed he waited until 11pm,very friendly and helpful host,host,"friendly, helpful",Service,Positive,0.9849
+175,350,very friendly and helpful host our flight was delayed he waited until 11pm,our flight was delayed,flight,delayed,Amenity,Negative,0.9624
+176,350,very friendly and helpful host our flight was delayed he waited until 11pm,he waited until 11pm,,waited until 11pm,Experience,Negative,0.8686
+177,351,apartment and swimming pool thank you,apartment and swimming pool thank you,"apartment,swimming pool",thank you,Facility,Positive,0.516
+178,358,residence and seemingly luxury great welcome from diny,residence and seemingly luxury,residence,luxury,Branding,Positive,0.6943
+179,358,residence and seemingly luxury great welcome from diny,great welcome from diny,,great welcome,Service,Positive,0.9435
+180,362,szybki i sprawne zameldowanie,szybki i sprawne zameldowanie,,,Facility,Positive,0.9966
+181,363,czyste mieszkanie wyposa one we wszystko czego potrzeba w tym pralk i suszark b d c w podr y na jedn czy dwie noce jest to wietne rozwi zanie,czyste mieszkanie,,,Facility,Positive,0.9542
+182,363,czyste mieszkanie wyposa one we wszystko czego potrzeba w tym pralk i suszark b d c w podr y na jedn czy dwie noce jest to wietne rozwi zanie,wyposa one we wszystko czego potrzeba,,,Facility,Positive,0.7105
+183,363,czyste mieszkanie wyposa one we wszystko czego potrzeba w tym pralk i suszark b d c w podr y na jedn czy dwie noce jest to wietne rozwi zanie,pralk i suszark,,,Facility,Negative,0.4863
+184,363,czyste mieszkanie wyposa one we wszystko czego potrzeba w tym pralk i suszark b d c w podr y na jedn czy dwie noce jest to wietne rozwi zanie,b d c w podr y na jedn czy dwie noce,,,Facility,Neutral,0.7823
+185,363,czyste mieszkanie wyposa one we wszystko czego potrzeba w tym pralk i suszark b d c w podr y na jedn czy dwie noce jest to wietne rozwi zanie,jest to wietne rozwi zanie,,,Facility,Positive,0.9947
+186,366,wszytko jest tak jak w opisie i w najlepszym porz dku,wszytko jest tak jak w opisie,,,Facility,Positive,0.9728
+187,366,wszytko jest tak jak w opisie i w najlepszym porz dku,w najlepszym porz dku,,,Facility,Positive,0.9942
+188,369,excellent,excellent,,excellent,Experience,Positive,0.9974
+189,371,we have a small reservation problem i booked a superior room and i got a standard room my problems solved after 4 days,we have a small reservation problem,reservation,problem,Service,Negative,0.9101
+190,371,we have a small reservation problem i booked a superior room and i got a standard room my problems solved after 4 days,i booked a superior room and i got a standard room,reservation,booked a superior room and i got a standard room,Service,Negative,0.3428
+191,371,we have a small reservation problem i booked a superior room and i got a standard room my problems solved after 4 days,my problems solved after 4 days,reservation,solved after 4 days,Service,Neutral,0.6768
+192,376,we were greeted escorted,we were greeted,,greeted,Service,Positive,0.9855
+193,376,we were greeted escorted,escorted,,escorted,Service,Positive,0.5316
+194,378,and during the holidays with any questions i was helped,and during the holidays with any questions i was helped,,helped,Service,Positive,0.9914
+195,379,perfect location near landmark 81,perfect location near landmark 81,location,perfect,Amenity,Positive,0.9878
+196,381,on the first floor of 7eleven where you can buy food,on the first floor of 7eleven where you can buy food,7eleven,can buy food,Amenity,Neutral,0.9687
+197,382,it s a nice quiet place to rest,it s a nice quiet place to rest,place,"nice, quiet",Branding,Positive,0.9979
+198,383,very good,very good,,very good,Experience,Positive,0.9977
+199,388,it s away from the hustle and bustle of downtown where some of the hotels are very questionable,it s away from the hustle and bustle of downtown,,away from the hustle and bustle,Amenity,Positive,0.9008
+200,388,it s away from the hustle and bustle of downtown where some of the hotels are very questionable,some of the hotels are very questionable,hotels,very questionable,Branding,Negative,0.9155
+201,389,i highly recommend it,i highly recommend it,,highly recommend,Loyalty,Positive,0.9948
+202,395,the host welcomed us and is available without any problem,the host welcomed us,host,welcomed,Service,Positive,0.989
+203,395,the host welcomed us and is available without any problem,the host is available without any problem,host,available,Service,Positive,0.9883
+204,409,i don t know,i don t know,,i don t know,Experience,Neutral,0.876
+205,410,very good,very good,,very good,Experience,Positive,0.9977
+206,412,very helpful and nice owner very clean apartment great pool on the 25th floor which had sun until noon and was perfect to start the day relaxed before we plunged into the trouble of the city,very helpful and nice owner,owner,"very helpful, nice",Service,Positive,0.9938
+207,412,very helpful and nice owner very clean apartment great pool on the 25th floor which had sun until noon and was perfect to start the day relaxed before we plunged into the trouble of the city,very clean apartment,,very clean,Branding,Positive,0.9904
+208,412,very helpful and nice owner very clean apartment great pool on the 25th floor which had sun until noon and was perfect to start the day relaxed before we plunged into the trouble of the city,great pool,pool,great,Facility,Positive,0.9855
+209,412,very helpful and nice owner very clean apartment great pool on the 25th floor which had sun until noon and was perfect to start the day relaxed before we plunged into the trouble of the city,on the 25th floor which had sun until noon,25th floor,had sun until noon,Experience,Positive,0.8792
+210,412,very helpful and nice owner very clean apartment great pool on the 25th floor which had sun until noon and was perfect to start the day relaxed before we plunged into the trouble of the city,and was perfect to start the day relaxed before we plunged into the trouble of the city,city,"perfect, relaxed",Experience,Positive,0.9899
+211,413,can definitely recommend the apartment to stay there,can definitely recommend the apartment to stay there,apartment,definitely recommend,Loyalty,Positive,0.9946
+212,417,dinh was a great host the apartment had a great view of the city was very clean and spacious,dinh was a great host,,great,Service,Positive,0.9874
+213,417,dinh was a great host the apartment had a great view of the city was very clean and spacious,the apartment had a great view of the city,aparment,great,Branding,Positive,0.9815
+214,417,dinh was a great host the apartment had a great view of the city was very clean and spacious,was very clean,apartment,very clean,Facility,Positive,0.9944
+215,417,dinh was a great host the apartment had a great view of the city was very clean and spacious,and spacious,apartment,spacious,Facility,Positive,0.9893
+216,418,dinh stood by us with all our questions,dinh stood by us with all our questions,,stood by us with all our questions,Service,Positive,0.9851
+217,422,it s close to the first one but it s in a confined area not too noisy and it s very accessible in the city,it s close to the first one but it s in a confined area not too noisy and it s very accessible in the city,,"not too noisy, very accessible",Amenity,Positive,0.6693
+218,424,a large studio is much more comfortable than a hotel,a large studio is much more comfortable than a hotel,studio,more comfortable,Experience,Positive,0.9824
+219,426,the exterior of the building and the hostel are well decorated but the building itself is a bit older,the exterior of the building and the hostel are well decorated,"building,hostel",well decorated,Branding,Positive,0.9971
+220,426,the exterior of the building and the hostel are well decorated but the building itself is a bit older,the building itself is a bit older,building,a bit older,Branding,Negative,0.7111
+221,429,everything dinh is a very hospitable host who knows how to welcome you and make your stay the best possible the apartment is top notch the air conditioning works well the pool is amazing with an exceptional view,everything dinh is a very hospitable host who knows how to welcome you and make your stay the best possible,host,"hospitable,welcome,make your stay the best possible",Service,Positive,0.9848
+222,429,everything dinh is a very hospitable host who knows how to welcome you and make your stay the best possible the apartment is top notch the air conditioning works well the pool is amazing with an exceptional view,the apartment is top notch,apartment,top notch,Branding,Positive,0.9957
+223,429,everything dinh is a very hospitable host who knows how to welcome you and make your stay the best possible the apartment is top notch the air conditioning works well the pool is amazing with an exceptional view,the air conditioning works well,air conditioning,works well,Facility,Positive,0.9944
+224,429,everything dinh is a very hospitable host who knows how to welcome you and make your stay the best possible the apartment is top notch the air conditioning works well the pool is amazing with an exceptional view,the pool is amazing with an exceptional view,pool,"amazing, exceptional view",Facility,Positive,0.9874
+225,431,everything was perfect,everything was perfect,,perfect,Experience,Positive,0.9941
+226,437,i ll say it again friendly host,i ll say it again,,again,Loyalty,Positive,0.9339
+227,437,i ll say it again friendly host,friendly host,host,friendly,Service,Positive,0.9331
+228,438,very good,very good,,very good,Experience,Positive,0.9977
+229,457,nothing everything was great,nothing everything was great,,great,Experience,Positive,0.8729
+230,459,top living room,top living room,living room,top,Facility,Neutral,0.8862
+231,460,the room is very clean with all the accessories kitchen utensils washing machine tv with netflix and a fantastic view on the eighth floor,the room is very clean,room,very clean,Facility,Positive,0.9973
+232,460,the room is very clean with all the accessories kitchen utensils washing machine tv with netflix and a fantastic view on the eighth floor,with all the accessories,room,with all the accessories,Facility,Positive,0.9963
+233,460,the room is very clean with all the accessories kitchen utensils washing machine tv with netflix and a fantastic view on the eighth floor,kitchen utensils,kitchen utensils,,Facility,Neutral,0.9828
+234,460,the room is very clean with all the accessories kitchen utensils washing machine tv with netflix and a fantastic view on the eighth floor,washing machine,washing machine,,Facility,Neutral,0.9695
+235,460,the room is very clean with all the accessories kitchen utensils washing machine tv with netflix and a fantastic view on the eighth floor,tv with netflix,tv,with netflix,Service,Positive,0.9818
+236,460,the room is very clean with all the accessories kitchen utensils washing machine tv with netflix and a fantastic view on the eighth floor,and a fantastic view on the eighth floor,view,fantastic,Experience,Positive,0.9824
+237,463,very good,very good,,very good,Experience,Positive,0.9977
+238,469,it s perfect,it s perfect,it,perfect,Branding,Positive,0.9964
+239,473,ani nev m kde za t toto ubytov n bylo jednozna n nejlep ze v ech kter jsem b hem sv t m m s n cesty po jihov chodn asii nav t vil,ani nev m kde za t toto ubytov n bylo jednozna n nejlep ze v ech kter jsem b hem sv t m m s n cesty po jihov chodn asii nav t vil,ubytov,,Facility,Positive,0.6062
+240,480,pat e se m ete kochat asn m v hledem na velkou st ho chi minova m sta,pat e se m ete kochat asn m v hledem na velkou st ho chi minova m sta,,,Facility,Positive,0.8669
+241,483,nem m co bych dinymu a jeho apartm nu vytkl,nem m co bych dinymu a jeho apartm nu vytkl,,,Facility,Negative,0.951
+242,484,pokud hled te ubytov n v ho chi minov m st nev hejte ani minutu toto ubytov n v s rozhodn nezklame,pokud hled te ubytov n v ho chi minov m st nev hejte ani minutu toto ubytov n v s rozhodn nezklame,,,Facility,Positive,0.5342
+243,485,d kuji za v e d ky,d kuji za v e d ky,,,Branding,Positive,0.5339
+244,489,i m not complaining,i m not complaining,,not complaining,Experience,Positive,0.9219
+245,490,very good,very good,,very good,Experience,Positive,0.9977
+246,492,very good for one night see more because very well equipped,very good for one night see more because very well equipped,,"very good, very well equipped",Facility,Positive,0.9937
+247,493,the reception and the pool,the reception and the pool,"reception,pool",,Facility,Neutral,0.9721
+0,3,it s near the subway station it s easy to get to the castle,it s near the subway station,,near,Amenity,Neutral,0.5833
+1,3,it s near the subway station it s easy to get to the castle,it s easy to get to the castle,,easy to get,Amenity,Positive,0.9779
+2,5,no you didn t,no you didn t,,no,Experience,Negative,0.584
+3,6,very good,very good,,very good,Experience,Positive,0.9977
+4,8,that s great,that s great,,great,Experience,Positive,0.9853
+5,10,the apartment is spacious and clean,the apartment is spacious and clean,apartment,"spacious, clean",Facility,Positive,0.9974
+6,11,i m not doing anything,i m not doing anything,,not doing anything,Experience,Neutral,0.5844
+7,12,very good,very good,,very good,Experience,Positive,0.9977
+8,13,the house is fully equipped,the house is fully equipped,house,fully equipped,Facility,Positive,0.9966
+9,14,there s a washing machine a clothes dryer a hair dryer a sewing machine,there s a washing machine,washing machine,,Facility,Neutral,0.9749
+10,14,there s a washing machine a clothes dryer a hair dryer a sewing machine,a clothes dryer,clothes dryer,,Facility,Neutral,0.8905
+11,14,there s a washing machine a clothes dryer a hair dryer a sewing machine,a hair dryer,hair dryer,,Facility,Neutral,0.8447
+12,14,there s a washing machine a clothes dryer a hair dryer a sewing machine,a sewing machine,sewing machine,,Facility,Neutral,0.94
+13,15,mr dinh has been supporting his family for the past two days,mr dinh has been supporting his family for the past two days,,supporting,Service,Neutral,0.7693
+14,16,the location of the apartment is quite nice and the living space is comfortable,the location of the apartment is quite nice,location,quite nice,Amenity,Positive,0.9921
+15,16,the location of the apartment is quite nice and the living space is comfortable,the living space is comfortable,living space,comfortable,Facility,Positive,0.9946
+16,17,very good,very good,,very good,Experience,Positive,0.9977
+17,19,that s very interesting,that s very interesting,,very interesting,Experience,Positive,0.9941
+18,20,clean will full furnishings your master is very enthusiastic,clean will full furnishings your master is very enthusiastic,master,enthusiastic,Service,Positive,0.9963
+19,21,no you didn t,no you didn t,,no,Experience,Negative,0.584
+20,23,we ve got all the equipment we need,we ve got all the equipment we need,equipment,got all the equipment we need,Facility,Positive,0.9784
+21,25,you re an enthusiastic sweet owner,you re an enthusiastic sweet owner,owner,sweet,Service,Positive,0.9956
+22,26,like the other rooms here it s a bit old but it s very well used,like the other rooms here it s a bit old,room,a bit old,Facility,Neutral,0.6202
+23,26,like the other rooms here it s a bit old but it s very well used,it s very well used,room,well used,Branding,Positive,0.9834
+24,27,the apartment neat clean,the apartment neat clean,apartment,"neat, clean",Facility,Positive,0.9985
+25,28,room s good compared to the neighborhood,room s good compared to the neighborhood,room,good,Facility,Positive,0.9945
+26,30,nice,nice,,nice,Experience,Positive,0.9951
+27,31,very good,very good,,very good,Experience,Positive,0.9977
+28,32,the owner is very considerate,the owner is very considerate,owner,very considerate,Service,Positive,0.9884
+29,33,very good,very good,,very good,Experience,Positive,0.9977
+30,34,the lounge is clean,the lounge is clean,lounge,clean,Facility,Positive,0.9749
+31,36,the staff is very enthusiastic supportive all the time everywhere,the staff is very enthusiastic,staff,very enthusiastic,Service,Positive,0.9904
+32,36,the staff is very enthusiastic supportive all the time everywhere,the staff is very supportive,staff,very supportive,Service,Positive,0.9916
+33,36,the staff is very enthusiastic supportive all the time everywhere,the staff is very enthusiastic supportive all the time,staff,very enthusiastic supportive all the time,Service,Positive,0.9981
+34,36,the staff is very enthusiastic supportive all the time everywhere,the staff is very enthusiastic supportive all the time everywhere,staff,very enthusiastic supportive all the time everywhere,Service,Positive,0.9981
+35,37,i ll be back if i get the chance,i ll be back if i get the chance,,back,Loyalty,Positive,0.8648
+36,40,very good,very good,,very good,Experience,Positive,0.9977
+37,41,diny was very kind and helpful all the time,diny was very kind,,very kind,Service,Positive,0.9831
+38,41,diny was very kind and helpful all the time,diny was very helpful,,very helpful,Service,Positive,0.9824
+39,41,diny was very kind and helpful all the time,diny was helpful all the time,,helpful all the time,Service,Positive,0.9836
+40,42,the room has an incredible view over hcmc and it is located 5 mins away from landmark 81 which is must see,the room has an incredible view over hcmc,room,incredible view,Experience,Positive,0.96
+41,42,the room has an incredible view over hcmc and it is located 5 mins away from landmark 81 which is must see,it is located 5 mins away from landmark 81,room,,Amenity,Neutral,0.788
+42,42,the room has an incredible view over hcmc and it is located 5 mins away from landmark 81 which is must see,landmark 81 which is must see,landmark 81,must see,Amenity,Positive,0.9959
+43,45,diny thank you and see you again,diny thank you and see you again,,thank you and see you again,Service,Positive,0.9751
+44,48,diny was really helpful he gave us many tips and helped us with departure,diny was really helpful,,really helpful,Service,Positive,0.9781
+45,48,diny was really helpful he gave us many tips and helped us with departure,he gave us many tips,,gave us many tips,Service,Positive,0.9927
+46,48,diny was really helpful he gave us many tips and helped us with departure,helped us with departure,,helped,Service,Positive,0.7567
+47,49,i can definitely recommend it,i can definitely recommend it,,definitely recommend,Loyalty,Positive,0.9929
+48,50,perfect place to stay with your family,perfect place to stay with your family,place,perfect,Branding,Positive,0.9956
+49,51,everything was as we wished for a host who looked after us the place and its location and its facilities,everything was as we wished for,,as we wished for,Experience,Positive,0.9678
+50,51,everything was as we wished for a host who looked after us the place and its location and its facilities,a host who looked after us,host,look after us,Service,Positive,0.9679
+51,51,everything was as we wished for a host who looked after us the place and its location and its facilities,the place and its location,"place,location",,Branding,Neutral,0.8721
+52,51,everything was as we wished for a host who looked after us the place and its location and its facilities,its facilities,facilities,,Facility,Neutral,0.5301
+53,53,the sofa which was our second bed needs to be replaced it is quite dated and extremely uncomfortable to sleep on,the sofa which was our second bed needs to be replaced,sofa,needs to be replaced,Facility,Negative,0.5593
+54,53,the sofa which was our second bed needs to be replaced it is quite dated and extremely uncomfortable to sleep on,it is quite dated and extremely uncomfortable to sleep on,sofa,uncomfortable,Facility,Negative,0.9612
+55,55,nice place with a beautiful view and equipped with all what you need,nice place with a beautiful view,"place,view","nice, beautiful",Branding,Positive,0.9941
+56,55,nice place with a beautiful view and equipped with all what you need,equipped with all what you need,,equipped,Facility,Positive,0.9943
+57,57,the rooftop pool is a nice extra,the rooftop pool is a nice extra,rooftop pool,nice,Facility,Positive,0.9873
+58,59,would definitely come back again,would definitely come back again,,definitely come back,Loyalty,Positive,0.9918
+59,60,the place is a bit more outside the center and the metro stations are quite difficult to reach or to leave if you don t want to use vehicles,the place is a bit more outside the center,place,outside the center,Amenity,Neutral,0.4081
+60,60,the place is a bit more outside the center and the metro stations are quite difficult to reach or to leave if you don t want to use vehicles,the metro stations are quite difficult to reach,metro stations,difficult to reach,Amenity,Negative,0.9899
+61,60,the place is a bit more outside the center and the metro stations are quite difficult to reach or to leave if you don t want to use vehicles,the metro stations are quite difficult to leave if you don t want to use vehicles,metro stations,difficult to leave,Amenity,Negative,0.9706
+62,61,so i would still use taxi s even if they are not as cheap as the metro,so i would still use taxi s even if they are not as cheap as the metro,taxi,not as cheap,Amenity,Negative,0.6425
+63,62,that s great,that s great,,great,Experience,Positive,0.9853
+64,65,the apartment is well equipped and comfortable with a beautiful city view we stayed on the 21st floor and access to a swimming pool on the 25th floor,the apartment is well equipped and comfortable,apartment,"well equipped, comfortable",Facility,Positive,0.9972
+65,65,the apartment is well equipped and comfortable with a beautiful city view we stayed on the 21st floor and access to a swimming pool on the 25th floor,with a beautiful city view,view,beautiful,Experience,Positive,0.9673
+66,65,the apartment is well equipped and comfortable with a beautiful city view we stayed on the 21st floor and access to a swimming pool on the 25th floor,we stayed on the 21st floor,floor,stayed on,Experience,Neutral,0.5862
+67,65,the apartment is well equipped and comfortable with a beautiful city view we stayed on the 21st floor and access to a swimming pool on the 25th floor,and access to a swimming pool on the 25th floor,swimming pool,access,Experience,Neutral,0.9471
+68,67,we were very satisfied with our stay and would love to come back,we were very satisfied with our stay,stay,very satisfied,Experience,Positive,0.9957
+69,67,we were very satisfied with our stay and would love to come back,would love to come back,stay,love to come back,Loyalty,Positive,0.9839
+70,68,i m not doing anything,i m not doing anything,,not doing anything,Experience,Neutral,0.5844
+71,69,very good,very good,,very good,Experience,Positive,0.9977
+72,71,if you want to experience true vietnamese local street food then this is in a great area,if you want to experience true vietnamese local street food then this is in a great area,area,great,Amenity,Positive,0.9477
+73,74,apartment was nice good air con comfortable bed big shower cubicle all very clean and tidy,apartment was nice good air con comfortable bed big shower cubicle all very clean and tidy,apartment,"nice, good, comfortable, big, clean, tidy",Facility,Positive,0.9978
+74,76,kitchen we didn t use as we ate out everyday but was clean and presentable,kitchen we didn t use as we ate out everyday,kitchen,we didn t use,Facility,Neutral,0.6457
+75,76,kitchen we didn t use as we ate out everyday but was clean and presentable,was clean and presentable,kitchen,"clean, presentable",Facility,Positive,0.996
+76,77,swimming pool was big enough to do a few lengths in with privacy at the top,swimming pool was big enough to do a few lengths in,pool,big enough to do a few lengths in,Facility,Positive,0.7136
+77,77,swimming pool was big enough to do a few lengths in with privacy at the top,privacy at the top,privacy,top,Amenity,Positive,0.969
+78,78,no one can see into the pool area from above,no one can see into the pool area from above,pool area,no one can see,Facility,Positive,0.4529
+79,80,all in all it was great would use again,all in all it was great,,great,Experience,Positive,0.9949
+80,80,all in all it was great would use again,would use again,,would use again,Loyalty,Positive,0.9826
+81,84,the host diny is honestly the most helpful guy you will ever meet he helped us with anything we asked,the host diny is honestly the most helpful guy you will ever meet,host,"honestly, most helpful",Service,Positive,0.9507
+82,84,the host diny is honestly the most helpful guy you will ever meet he helped us with anything we asked,he helped us with anything we asked,host,helped us,Service,Positive,0.9934
+83,85,we would recommend him and this accomodation to anyone,we would recommend him,,recommend,Loyalty,Positive,0.9888
+84,85,we would recommend him and this accomodation to anyone,this accomodation,,,Amenity,Neutral,0.8053
+85,85,we would recommend him and this accomodation to anyone,to anyone,,anyone,Service,Neutral,0.9103
+86,86,hope to stay again in the future thank you diny,hope to stay again in the future,,stay again,Loyalty,Positive,0.9721
+87,86,hope to stay again in the future thank you diny,thank you diny,,thank you,Service,Positive,0.9274
+88,88,great stay,great stay,stay,great,Experience,Positive,0.995
+89,90,decorated the room for us which was nice and the pool on the top had a fantastic view,decorated the room for us which was nice,room,nice,Facility,Positive,0.9843
+90,90,decorated the room for us which was nice and the pool on the top had a fantastic view,the pool on the top had a fantastic view,pool,fantastic view,Facility,Positive,0.9537
+91,91,i m not doing anything,i m not doing anything,,not doing anything,Experience,Neutral,0.5844
+92,92,very good,very good,,very good,Experience,Positive,0.9977
+93,93,host was very responsive and kind to let me check in early,host was very responsive,host,very responsive,Service,Positive,0.9941
+94,93,host was very responsive and kind to let me check in early,host was kind to let me check in early,,kind,Service,Positive,0.966
+95,94,it was very clean had a great view and a very nice pool,it was very clean,pool,very clean,Facility,Positive,0.9962
+96,94,it was very clean had a great view and a very nice pool,had a great view,view,great,Experience,Positive,0.989
+97,94,it was very clean had a great view and a very nice pool,a very nice pool,pool,very nice,Facility,Positive,0.9925
+98,95,a lot of food options around and 2 stores inside the building,a lot of food options around,food options,a lot,Service,Positive,0.8964
+99,95,a lot of food options around and 2 stores inside the building,2 stores inside the building,stores,,Amenity,Neutral,0.9806
+100,96,excellent apartment and host,excellent apartment,apartment,excellent,Branding,Positive,0.9886
+101,96,excellent apartment and host,host,host,excellent,Service,Neutral,0.9148
+102,98,the opera house war remnants museum and the post office were about a 40 minute walk,the opera house war remnants museum and the post office were about a 40 minute walk,"museum,post office",,Amenity,Negative,0.5827
+103,99,the host was really attentive met us at the apartment even though we were 5 hours delayed walked us up to the room to show us the facilities,the host was really attentive,host,attentive,Service,Positive,0.9957
+104,99,the host was really attentive met us at the apartment even though we were 5 hours delayed walked us up to the room to show us the facilities,met us at the apartment,host,,Service,Positive,0.8282
+105,99,the host was really attentive met us at the apartment even though we were 5 hours delayed walked us up to the room to show us the facilities,even though we were 5 hours delayed,,delayed,Service,Negative,0.9436
+106,99,the host was really attentive met us at the apartment even though we were 5 hours delayed walked us up to the room to show us the facilities,walked us up to the room to show us the facilities,"host,facilities",,Service,Positive,0.9281
+107,100,he even sent me a whatsapp with local food and drink places,he even sent me a whatsapp with local food and drink places,,sent,Service,Neutral,0.8138
+108,102,as did the pool it was a good place to cool down on hot days even though it is in the shade,as did the pool,pool,,Facility,Neutral,0.5483
+109,102,as did the pool it was a good place to cool down on hot days even though it is in the shade,it was a good place to cool down on hot days,place,good,Branding,Positive,0.9752
+110,102,as did the pool it was a good place to cool down on hot days even though it is in the shade,even though it is in the shade,place,in the shade,Amenity,Positive,0.6437
+111,103,i highly recommend this apartment and the host,i highly recommend this apartment and the host,"apartment,host",highly recommend,Loyalty,Positive,0.9968
+112,104,all was excellent and we would book again if we were to go to ho chi minh in the future,all was excellent and we would book again if we were to go to ho chi minh in the future,,"excellent,again",Loyalty,Positive,0.9807
+113,105,we thought the bed was so hard even gave me a number hip in the night and the pillows too,we thought the bed was so hard,bed,hard,Facility,Negative,0.942
+114,105,we thought the bed was so hard even gave me a number hip in the night and the pillows too,even gave me a number hip in the night,bed,gave me a number hip,Facility,Negative,0.7788
+115,105,we thought the bed was so hard even gave me a number hip in the night and the pillows too,the pillows too,pillows,hard,Facility,Negative,0.5086
+116,106,ended up sleeping with a cushion from the sofa,ended up sleeping with a cushion from the sofa,sofa,sleeping with a cushion,Experience,Negative,0.5306
+117,107,apart from that all was good,apart from that,,,Experience,Neutral,0.496
+118,107,apart from that all was good,all was good,,good,Experience,Positive,0.7708
+119,108,very helpful host,very helpful host,host,very helpful,Service,Positive,0.9233
+120,110,diny was extremely helpful and gave great recommendations for food shopping and let us leave our bags after check out,diny was extremely helpful,,extremely helpful,Service,Positive,0.985
+121,110,diny was extremely helpful and gave great recommendations for food shopping and let us leave our bags after check out,gave great recommendations for food shopping,recommendations,great,Loyalty,Positive,0.9769
+122,110,diny was extremely helpful and gave great recommendations for food shopping and let us leave our bags after check out,let us leave our bags after check out,,,Service,Neutral,0.7576
+123,113,added bonus was meeting the owner who provided us with information on the area by whatsapp,added bonus was meeting the owner who provided us with information on the area by whatsapp,owner,provided,Service,Positive,0.9639
+124,114,great stay and will be back,great stay,stay,great,Experience,Positive,0.995
+125,114,great stay and will be back,will be back,,will be back,Loyalty,Positive,0.865
+126,115,i m not doing anything,i m not doing anything,,not doing anything,Experience,Neutral,0.5844
+127,116,happy stay and will come back in the future,happy stay,stay,happy,Experience,Positive,0.9676
+128,116,happy stay and will come back in the future,will come back in the future,,will come back,Loyalty,Neutral,0.7738
+129,117,the host contacted me a few days before my arrival and meet me at the apartment lobby,the host contacted me a few days before my arrival,host,,Service,Neutral,0.8347
+130,117,the host contacted me a few days before my arrival and meet me at the apartment lobby,meet me at the apartment lobby,host,,Service,Neutral,0.7814
+131,118,the check in is extremely smooth,the check in is extremely smooth,check in,extremely smooth,Service,Positive,0.9862
+132,119,everything is good,everything is good,,good,Experience,Positive,0.9886
+133,120,great location beautiful views and excellent host,great location,location,great,Amenity,Positive,0.9776
+134,120,great location beautiful views and excellent host,beautiful views,views,beautiful,Experience,Positive,0.9944
+135,120,great location beautiful views and excellent host,excellent host,host,excellent,Service,Positive,0.9908
+136,122,we really liked the location just outside the bustling city center but with everything accessible within minutes by grab,we really liked the location just outside the bustling city center,location,liked,Amenity,Positive,0.9553
+137,122,we really liked the location just outside the bustling city center but with everything accessible within minutes by grab,with everything accessible within minutes by grab,,accessible within minutes,Amenity,Positive,0.9548
+138,123,the rooftop pool is truly magical especially in the evenings when the city lights create a spectacular backdrop,the rooftop pool is truly magical,rooftop pool,truly magical,Facility,Positive,0.9785
+139,123,the rooftop pool is truly magical especially in the evenings when the city lights create a spectacular backdrop,especially in the evenings when the city lights create a spectacular backdrop,city lights,spectacular,Experience,Positive,0.9507
+140,125,among all hosts during our three week vietnam journey his hospitality was unmatched,among all hosts during our three week vietnam journey his hospitality was unmatched,hospitality,unmatched,Service,Positive,0.97
+141,126,he told us about all interesting spots and was always available within seconds for any question,he told us about all interesting spots,spots,interesting,Amenity,Positive,0.9738
+142,126,he told us about all interesting spots and was always available within seconds for any question,was always available within seconds for any question,,available,Service,Positive,0.9839
+143,127,it s no wonder we chose to return for a second stay towards the end of our trip,it s no wonder we chose to return for a second stay towards the end of our trip,,"no wonder, chose to return",Loyalty,Negative,0.4681
+144,128,for anyone visiting hcmc we cannot recommend diny s aparthotel highly enough,for anyone visiting hcmc we cannot recommend diny s aparthotel highly enough,aparthotel,highly enough,Loyalty,Positive,0.9684
+145,129,a relaxing stay,a relaxing stay,stay,relaxing,Experience,Positive,0.9954
+146,130,manager host was very friendly and helpful,manager host was very friendly,manager host,very friendly,Service,Positive,0.9875
+147,130,manager host was very friendly and helpful,manager host was very helpful,manager host,very helpful,Service,Positive,0.9773
+148,131,the view from the room was great,the view from the room was great,view,great,Experience,Positive,0.986
+149,134,i didn t have to apply sunblock because there wasn t much sun in the afternoon,i didn t have to apply sunblock because there wasn t much sun in the afternoon,sun,there wasn t much,Experience,Positive,0.6332
+150,136,excellent value for a stay in an upscale neighborhood in the heart of saigon,excellent value for a stay in an upscale neighborhood in the heart of saigon,stay,"excellent value, upscale neighborhood",Amenity,Positive,0.9714
+151,138,unbeatable location clean,unbeatable location,location,unbeatable,Amenity,Positive,0.992
+152,138,unbeatable location clean,clean,,clean,Facility,Positive,0.9832
+153,139,functional rooms that suits my type,functional rooms that suits my type,rooms,suits,Facility,Positive,0.9757
+154,141,it was nothing,it was nothing,,nothing,Branding,Negative,0.6409
+155,143,nada,nada,,nada,Experience,Negative,0.8895
+156,144,perfect place to stay in oh chi minh city,perfect place to stay in oh chi minh city,place,perfect,Branding,Positive,0.9905
+157,146,from the moment we arrived till when we left the apartments the owner is very kind and helpful,from the moment we arrived till when we left the apartments the owner is very kind and helpful,owner,"very kind, helpful",Service,Positive,0.9458
+158,147,thanks for keeping our luggage till late,thanks for keeping our luggage till late,,keeping our luggage till late,Service,Positive,0.9325
+159,148,the apartment is very clean with all the comfort and well equipped,the apartment is very clean,,very clean,Facility,Positive,0.9964
+160,148,the apartment is very clean with all the comfort and well equipped,with all the comfort,apartment,with all the comfort,Facility,Positive,0.995
+161,148,the apartment is very clean with all the comfort and well equipped,and well equipped,apartment,well equipped,Facility,Positive,0.9942
+162,149,the 7 11 on the ground floor is a plus,the 7 11 on the ground floor is a plus,7 11,a plus,Amenity,Positive,0.8159
+163,151,place is nice and the owner is great helper,place is nice,place,nice,Branding,Positive,0.9922
+164,151,place is nice and the owner is great helper,the owner is great helper,owner,great helper,Service,Positive,0.9874
+165,152,safe and quite,safe and quite,,"safe, quite",Amenity,Positive,0.9958
+166,153,perfect sport in saigon,perfect sport in saigon,sport,perfect,Amenity,Positive,0.9187
+167,155,the host was very helpful and checked in on us during our stay,the host was very helpful,host,very helpful,Service,Positive,0.9881
+168,155,the host was very helpful and checked in on us during our stay,checked in on us during our stay,host,,Service,Positive,0.8083
+169,156,he was very kind letting us check out late due to a late flight,he was very kind,,very kind,Service,Positive,0.9944
+170,156,he was very kind letting us check out late due to a late flight,letting us check out late due to a late flight,flight,late,Amenity,Negative,0.9165
+171,157,the facilities at the manor 2 were perfect for a weeks stay,the facilities at the manor 2 were perfect for a weeks stay,facilities,perfect,Facility,Positive,0.9844
+172,160,the views however were incredible,the views however were incredible,views,incredible,Experience,Positive,0.9398
+173,161,great location with 2 minimarkets close by for essentials,great location,location,great,Amenity,Positive,0.9776
+174,161,great location with 2 minimarkets close by for essentials,2 minimarkets close by for essentials,minimarkets,close by,Amenity,Neutral,0.8621
+175,162,the photos are exactly how the place looks as well,the photos are exactly how the place looks as well,photos,exactly how the place looks as well,Experience,Positive,0.9885
+176,166,rooftop pool is gorgeous and a great place to relax in the morning,rooftop pool is gorgeous,rooftop pool,gorgeous,Facility,Positive,0.9774
+177,166,rooftop pool is gorgeous and a great place to relax in the morning,a great place to relax in the morning,place,great,Branding,Positive,0.9911
+178,168,the host was extremely kind and accommodating,the host was extremely kind,host,extremely kind,Service,Positive,0.9893
+179,168,the host was extremely kind and accommodating,the host was extremely accommodating,host,extremely accommodating,Service,Positive,0.9937
+180,169,room is a bit small but fine for two people,room is a bit small,room,small,Facility,Negative,0.9386
+181,169,room is a bit small but fine for two people,fine for two people,room,fine,Facility,Neutral,0.5933
+182,170,overall it was good value for hcmc,overall it was good value for hcmc,,good value,Amenity,Positive,0.9047
+183,171,definitely place to stay,definitely place to stay,place,definitely,Branding,Positive,0.9974
+184,172,great hospitality and room was neet and cozy as well,great hospitality,hospitality,great,Service,Positive,0.9931
+185,172,great hospitality and room was neet and cozy as well,room was neet and cozy as well,room,"neet, cozy",Facility,Positive,0.998
+186,173,very good,very good,,very good,Experience,Positive,0.9977
+187,174,the hotel is really nice and clean,the hotel is really nice,hotel,really nice,Branding,Positive,0.993
+188,174,the hotel is really nice and clean,the hotel is really clean,hotel,really clean,Facility,Positive,0.9933
+189,175,the location is great too,the location is great too,location,great,Amenity,Positive,0.9565
+190,177,recommended,recommended,,recommended,Loyalty,Positive,0.9882
+191,178,most amazing stay beautiful apartment good acnice,most amazing stay,stay,amazing,Experience,Positive,0.9957
+192,178,most amazing stay beautiful apartment good acnice,beautiful apartment,apartment,beautiful,Branding,Positive,0.9934
+193,178,most amazing stay beautiful apartment good acnice,good acnice,apartment,good,Branding,Positive,0.9976
+194,179,everything,everything,,everything,Experience,Neutral,0.9638
+195,182,with,with,,,Experience,Neutral,0.9315
+196,185,host is gracious kind and speaks great english unusual in the city,host is gracious kind and speaks great english,host,"gracious, kind, speaks great english",Service,Positive,0.9921
+197,185,host is gracious kind and speaks great english unusual in the city,unusual in the city,host,unusual,Service,Positive,0.6892
+198,187,calming and classy,calming and classy,,"calming, classy",Service,Positive,0.9948
+199,188,beautifully decorated and nice rooftop pool,beautifully decorated and nice rooftop pool,pool,nice,Facility,Positive,0.9968
+200,190,it was nothing,it was nothing,,nothing,Branding,Neutral,0.6409
+201,191,it s fabulous,it s fabulous,,fabulous,Branding,Positive,0.9978
+202,192,the host is extremely friendly and helpful,the host is extremely friendly,host,extremely friendly,Service,Positive,0.9882
+203,192,the host is extremely friendly and helpful,the host is extremely helpful,host,extremely helpful,Service,Positive,0.9817
+204,193,staying at this apartment was a wonderful experience,staying at this apartment was a wonderful experience,staying at this apartment,wonderful experience,Experience,Positive,0.9963
+205,194,the location is good with easy access to restaurants shops and public transportation,the location is good,location,good,Amenity,Positive,0.9895
+206,194,the location is good with easy access to restaurants shops and public transportation,easy access to restaurants,access to restaurants,easy,Amenity,Positive,0.979
+207,194,the location is good with easy access to restaurants shops and public transportation,easy access to shops,access to shops,easy,Amenity,Positive,0.9869
+208,194,the location is good with easy access to restaurants shops and public transportation,easy access to public transportation,access to public transportation,easy,Amenity,Positive,0.9834
+209,195,the apartment itself is spacious clean and have everything that you need,the apartment itself is spacious,apartment,spacious,Branding,Positive,0.9963
+210,195,the apartment itself is spacious clean and have everything that you need,clean,,clean,Facility,Positive,0.9832
+211,195,the apartment itself is spacious clean and have everything that you need,have everything that you need,,have everything,Experience,Positive,0.9734
+212,196,we d definitely come back for next time,we d definitely come back for next time,,definitely come back,Loyalty,Positive,0.9825
+213,199,new old world saigon,new old world saigon,world,new old,Amenity,Neutral,0.7816
+214,201,in some ways it is starting to show its age in general wear and tear but the host here has done a wonderful job of restoring the place,in some ways it is starting to show its age in general wear and tear,,"age, wear and tear",Facility,Negative,0.9752
+215,201,in some ways it is starting to show its age in general wear and tear but the host here has done a wonderful job of restoring the place,the host here has done a wonderful job of restoring the place,host,wonderful job,Service,Positive,0.9667
+216,204,any problems were immediately remedied by dinh,any problems were immediately remedied by dinh,problems,immediately remedied,Service,Positive,0.9391
+217,205,great stay awesome location,great stay,stay,great,Experience,Positive,0.995
+218,205,great stay awesome location,awesome location,location,awesome,Amenity,Positive,0.9814
+219,207,check in was a breeze,check in was a breeze,check in,breeze,Service,Positive,0.988
+220,208,we liked it so much we extended our stay,we liked it so much,,liked,Branding,Positive,0.9931
+221,208,we liked it so much we extended our stay,we extended our stay,stay,extended,Experience,Positive,0.8355
+222,209,i m not doing anything,i m not doing anything,,not doing anything,Experience,Neutral,0.5844
+223,210,it is fantastic value,it is fantastic value,value,fantastic,Amenity,Positive,0.9937
+224,211,very good,very good,,very good,Experience,Positive,0.9977
+225,212,excellent location amazing view from the rooftop pool close to the city center and right beside a neighbourhood with lots of local street food,excellent location,location,excellent,Amenity,Positive,0.9909
+226,212,excellent location amazing view from the rooftop pool close to the city center and right beside a neighbourhood with lots of local street food,amazing view from the rooftop pool,view,amazing,Experience,Positive,0.9898
+227,212,excellent location amazing view from the rooftop pool close to the city center and right beside a neighbourhood with lots of local street food,close to the city center,location,close,Amenity,Neutral,0.8167
+228,212,excellent location amazing view from the rooftop pool close to the city center and right beside a neighbourhood with lots of local street food,right beside a neighbourhood with lots of local street food,neighbourhood,lots of local street food,Amenity,Positive,0.8116
+229,213,the owner was super helpful and friendly and the apartment was perfect,the owner was super helpful and friendly,owner,"super helpful, friendly",Service,Positive,0.9928
+230,213,the owner was super helpful and friendly and the apartment was perfect,the apartment was perfect,apartment,perfect,Branding,Positive,0.996
+231,214,good for family vacation,good for family vacation,family vacation,good,Experience,Positive,0.9727
+232,216,i m not doing anything,i m not doing anything,,not doing anything,Experience,Neutral,0.5844
+233,217,great for a short or extended stay in hcmc,great for a short or extended stay in hcmc,short or extended stay,great,Experience,Positive,0.7994
+234,219,apartment is well appointed with cooking facilities a washing machine and dryer for an independent stay if you fancy that,apartment is well appointed with cooking facilities,apartment,well appointed,Branding,Positive,0.9937
+235,219,apartment is well appointed with cooking facilities a washing machine and dryer for an independent stay if you fancy that,a washing machine and dryer for an independent stay,washing machine and dryer,independent stay,Facility,Neutral,0.7738
+236,219,apartment is well appointed with cooking facilities a washing machine and dryer for an independent stay if you fancy that,if you fancy that,independent stay,fancy,Service,Neutral,0.957
+237,220,nice pool to cool off in,nice pool to cool off in,pool,nice,Facility,Positive,0.9899
+238,221,in the rear backstreets there s a neat local market street with some good eating spots recommend bun bo hue cuu long on vo duy ninh st,in the rear backstreets there s a neat local market street,market street,neat,Amenity,Positive,0.9078
+239,221,in the rear backstreets there s a neat local market street with some good eating spots recommend bun bo hue cuu long on vo duy ninh st,with some good eating spots,eating spots,good,Amenity,Positive,0.9527
+240,221,in the rear backstreets there s a neat local market street with some good eating spots recommend bun bo hue cuu long on vo duy ninh st,recommend bun bo hue cuu long on vo duy ninh st,bun bo hue cuu long,recommend,Loyalty,Positive,0.9953
+241,222,highly recommend for long stay trip feels like home,highly recommend for long stay trip,long stay trip,highly recommend,Loyalty,Positive,0.9796
+242,222,highly recommend for long stay trip feels like home,feels like home,long stay trip,feels like home,Experience,Positive,0.991
+243,223,we enjoyed our 3 week stay at the apartment,we enjoyed our 3 week stay at the apartment,stay,enjoyed,Experience,Positive,0.9789
+244,224,mr,mr<|im_end|>,,,Service,Neutral,0.8593
+245,225,dinh was super friendly and helpful from the start,dinh was super friendly and helpful from the start,,"friendly, helpful",Service,Positive,0.9942
+246,226,couldn t ask for more even though it wasn t on a high floor the city view was really nice,couldn t ask for more even though it wasn t on a high floor,high floor,couldn t ask for more,Service,Positive,0.9515
+247,226,couldn t ask for more even though it wasn t on a high floor the city view was really nice,the city view was really nice,view,nice,Experience,Positive,0.9914
+248,228,even the security guards from the management were helpful too,even the security guards from the management were helpful too,security guards,helpful,Amenity,Positive,0.9724
+249,230,stunning nightview from the rooftop pool,stunning nightview from the rooftop pool,nightview,stunning,Experience,Positive,0.8446
+250,231,very friendly and helpful host,very friendly and helpful host,host,"friendly, helpful",Service,Positive,0.9849
+251,232,100 trustworthy and reliable,100 trustworthy and reliable,,"trustworthy, reliable",Service,Positive,0.9975
+252,233,very good communication,very good communication,communication,very good,Service,Positive,0.9947
+253,234,awesome location with stunning nightview and many shopping and dining facilities near by,awesome location,location,awesome,Amenity,Positive,0.9814
+254,234,awesome location with stunning nightview and many shopping and dining facilities near by,stunning nightview,nightview,stunning,Experience,Positive,0.9706
+255,234,awesome location with stunning nightview and many shopping and dining facilities near by,many shopping and dining facilities near by,"shopping,dining,facilities",near by,Amenity,Positive,0.9712
+256,235,would definitely come back,would definitely come back,,definitely come back,Loyalty,Positive,0.9872
+257,236,thanks for everything,thanks for everything,,thanks for everything,Service,Positive,0.9784
+258,239,highly recommended place for your vacation,highly recommended place for your vacation,place,highly recommended,Loyalty,Positive,0.9957
+259,240,number of restaurant are limited around the proper,number of restaurant are limited around the proper,restaurant,limited,Amenity,Negative,0.9315
+260,242,very comfortable very quiet,very comfortable,,very comfortable,Experience,Positive,0.9973
+261,242,very comfortable very quiet,very quiet,,very quiet,Experience,Positive,0.9844
+262,244,friendly support and attention,friendly support and attention,,"friendly, support, attention",Service,Positive,0.9939
+263,246,very nice stay,very nice stay,stay,very nice,Experience,Positive,0.9958
+264,247,great apartment with all required bits like iron and cooking equipment,great apartment with all required bits like iron and cooking equipment,apartment,great,Branding,Positive,0.9955
+265,249,dinh is a superamazing host who accomodated to all our requests,dinh is a superamazing host,host,superamazing,Service,Positive,0.99
+266,249,dinh is a superamazing host who accomodated to all our requests,dinh accomodated to all our requests,host,accomodated,Service,Positive,0.9954
+267,250,very good,very good,,very good,Experience,Positive,0.9977
+268,251,super central,super central,,super central,Amenity,Neutral,0.7323
+269,252,the host is great,the host is great,host,great,Service,Positive,0.9794
+270,253,privacy is awesome,privacy is awesome,privacy,awesome,Amenity,Positive,0.9941
+271,254,i had a great stay the whole renting process was smooth,i had a great stay,stay,great,Experience,Positive,0.9949
+272,254,i had a great stay the whole renting process was smooth,the whole renting process was smooth,renting process,smooth,Service,Positive,0.9927
+273,255,ac is strong,ac is strong,ac,strong,Facility,Positive,0.9461
+274,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,theres all the things you need,,theres all the things you need,Facility,Positive,0.9814
+275,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,fridge,fridge,,Facility,Neutral,0.8066
+276,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,microwave,microwave,,Facility,Neutral,0.9188
+277,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,stove,stove,,Facility,Neutral,0.9461
+278,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,sink,sink,,Facility,Neutral,0.9607
+279,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,washing drying machine,washing drying machine,,Facility,Neutral,0.5613
+280,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,coffee table,coffee table,,Facility,Neutral,0.965
+281,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,couch,couch,,Facility,Neutral,0.576
+282,256,theres all the things you need fridge microwave stove sink washing drying machine coffee table couch and bed,and bed,bed,,Facility,Neutral,0.9472
+283,257,shampoo and body wash provided,shampoo and body wash provided,"shampoo,body wash",provided,Facility,Neutral,0.9302
+284,258,toothbrush combs are provided,toothbrush combs are provided,toothbrush combs,provided,Facility,Neutral,0.8232
+285,259,good location close to everything,good location close to everything,location,good,Amenity,Positive,0.9962
+286,260,owner is always there to help quickly,owner is always there to help quickly,owner,help quickly,Service,Positive,0.9498
+287,261,good,good,,good,Experience,Positive,0.9797
+288,262,your privacy is always put on top that i turn back again before come back us,your privacy is always put on top,privacy,on top,Amenity,Positive,0.9643
+289,262,your privacy is always put on top that i turn back again before come back us,that i turn back again before come back us,,turn back again,Loyalty,Positive,0.9593
+290,263,very nice apartment and the location is perfect,very nice apartment,apartment,very nice,Branding,Positive,0.9971
+291,263,very nice apartment and the location is perfect,the location is perfect,location,perfect,Amenity,Positive,0.9887
+292,265,all thing is good,all thing is good,,good,Experience,Positive,0.9913
+293,266,nope,nope,,nope,Loyalty,Neutral,0.8618
+294,267,was for business purposes i can t complain with regards of my stay all be enjoyable,was for business purposes,business purposes,,Experience,Neutral,0.9513
+295,267,was for business purposes i can t complain with regards of my stay all be enjoyable,i can t complain with regards of my stay,stay,can t complain,Experience,Neutral,0.9852
+296,267,was for business purposes i can t complain with regards of my stay all be enjoyable,all be enjoyable,stay,enjoyable,Experience,Positive,0.9852
+297,269,the host is really welcoming and hard working person,the host is really welcoming,host,really welcoming,Service,Positive,0.9902
+298,269,the host is really welcoming and hard working person,the host is really hard working person,host,really hard working,Service,Positive,0.9589
+299,270,none of them,none of them,,none of them,Loyalty,Negative,0.9377
+300,271,great host,great host,host,great,Service,Positive,0.9848
+301,272,diny is a great host and gives you a warm welcome when you arrive,diny is a great host,host,great,Service,Positive,0.9846
+302,272,diny is a great host and gives you a warm welcome when you arrive,gives you a warm welcome when you arrive,host,warm welcome,Service,Positive,0.9791
+303,273,gave us a lot of information about the building and what to do in the area,gave us a lot of information about the building,,gave us a lot of information,Service,Positive,0.9924
+304,273,gave us a lot of information about the building and what to do in the area,what to do in the area,,,Experience,Neutral,0.9739
+305,274,everytime he saw us he came to check if anything was allright and if you need something he responds immediately,everytime he saw us he came to check if anything was allright,,came to check,Service,Positive,0.9546
+306,274,everytime he saw us he came to check if anything was allright and if you need something he responds immediately,if you need something he responds immediately,,responds immediately,Service,Positive,0.9419
+307,275,we had a great stay and will definitely recommend this accomodation,we had a great stay,stay,great,Experience,Positive,0.9929
+308,275,we had a great stay and will definitely recommend this accomodation,will definitely recommend this accomodation,accomodation,definitely recommend,Loyalty,Positive,0.9964
+309,276,i m not doing anything,i m not doing anything,,not doing anything,Experience,Neutral,0.5844
+310,278,great apartment excellent rooftop pool with a view but the best thing was our host diny,great apartment,apartment,great,Branding,Positive,0.977
+311,278,great apartment excellent rooftop pool with a view but the best thing was our host diny,excellent rooftop pool with a view,pool,excellent,Facility,Positive,0.9812
+312,278,great apartment excellent rooftop pool with a view but the best thing was our host diny,but the best thing was our host diny,,,Service,Positive,0.9889
+313,279,communication was very clear before we arrived he met us in the lobby when we arrived gave us some great local recommendations and then let us leave our bags with him after we checked out before making sure we got to the railway station in one piece,communication was very clear before we arrived,communication,very clear,Service,Positive,0.9623
+314,279,communication was very clear before we arrived he met us in the lobby when we arrived gave us some great local recommendations and then let us leave our bags with him after we checked out before making sure we got to the railway station in one piece,he met us in the lobby when we arrived,,,Service,Neutral,0.5816
+315,279,communication was very clear before we arrived he met us in the lobby when we arrived gave us some great local recommendations and then let us leave our bags with him after we checked out before making sure we got to the railway station in one piece,gave us some great local recommendations,,great,Service,Positive,0.9865
+316,279,communication was very clear before we arrived he met us in the lobby when we arrived gave us some great local recommendations and then let us leave our bags with him after we checked out before making sure we got to the railway station in one piece,then let us leave our bags with him after we checked out before making sure we got to the railway station in one piece,,,Amenity,Positive,0.8812
+317,282,the host was super friendly and eager to help with anything,the host was super friendly,host,super friendly,Service,Positive,0.989
+318,282,the host was super friendly and eager to help with anything,the host was eager to help with anything,host,eager to help,Service,Positive,0.9926
+319,283,would recommend this first class residence and booking with diny,would recommend this first class residence and booking with diny,"residence,booking",recommend,Loyalty,Positive,0.9891
+320,284,the pool was wonderful,the pool was wonderful,pool,wonderful,Facility,Positive,0.9895
+321,285,diny was a great host who helped us in a lot of ways,diny was a great host,host,great,Service,Positive,0.9761
+322,285,diny was a great host who helped us in a lot of ways,helped us in a lot of ways,host,helped us,Service,Positive,0.9916
+323,289,the location didn t not have a lot of restaurants open but maybe it was because it was tet at the time,the location didn t not have a lot of restaurants open,location,not have a lot of restaurants open,Amenity,Negative,0.4249
+324,289,the location didn t not have a lot of restaurants open but maybe it was because it was tet at the time,but maybe it was because it was tet at the time,location,,Experience,Neutral,0.4537
+325,290,perfect combination of comfortable accessible and value for money,perfect combination of comfortable accessible and value for money,,"perfect, comfortable, accessible, value for money",Amenity,Positive,0.9965
+326,291,the person who received us was s helpful and sweet,the person who received us was s helpful and sweet,,"s helpful, sweet",Service,Positive,0.9951
+327,292,this made us comfortable about the whole trip ahead,this made us comfortable about the whole trip ahead,trip,comfortable,Experience,Positive,0.9821
+328,293,go ahead book it for yourself,go ahead book it for yourself,,go ahead,Service,Neutral,0.8432
+329,294,it s perfect,it s perfect,it,perfect,Branding,Positive,0.9964
+330,295,great location with excellent view to the city,great location with excellent view to the city,"location,view","great, excellent",Amenity,Positive,0.992
+331,296,within a few minutes with the car you are directly in the center of the city for sightseeing,within a few minutes with the car you are directly in the center of the city for sightseeing,,within a few minutes,Amenity,Positive,0.9026
+332,297,diny was super friendly and helped us organising our trip to the next city,diny was super friendly,,super friendly,Service,Positive,0.9826
+333,297,diny was super friendly and helped us organising our trip to the next city,helped us organising our trip to the next city,,helped,Service,Positive,0.4974
+334,298,we recommend this accommodation,we recommend this accommodation,accommodation,recommend,Loyalty,Positive,0.9938
+335,300,the apartment is very clean and comfortable,the apartment is very clean,apartment,very clean,Facility,Positive,0.9964
+336,300,the apartment is very clean and comfortable,the apartment is comfortable,apartment,comfortable,Experience,Positive,0.9958
+337,302,great rooftop pool,great rooftop pool,pool,great,Facility,Positive,0.9837
+338,303,the pillows were very thick,the pillows were very thick,pillows,very thick,Facility,Negative,0.6084
+339,305,polite and pleasant apartment owner,polite and pleasant apartment owner,apartment owner,"polite, pleasant",Service,Positive,0.9677
+340,306,additionally he communicates via wa which is very convenient,additionally he communicates via wa which is very convenient,,very convenient,Service,Positive,0.9774
+341,307,the room has everything you need iron clothes dryer hair dryer towels disposable razors are each in a separate package i was surprised the room is clean the air conditioning works fast wi fi,the room has everything you need,room,everything you need,Facility,Positive,0.9912
+342,307,the room has everything you need iron clothes dryer hair dryer towels disposable razors are each in a separate package i was surprised the room is clean the air conditioning works fast wi fi,iron clothes dryer hair dryer towels disposable razors are each in a separate package,"iron, clothes dryer, hair dryer, towels, disposable razors",each in a separate package,Facility,Positive,0.9583
+343,307,the room has everything you need iron clothes dryer hair dryer towels disposable razors are each in a separate package i was surprised the room is clean the air conditioning works fast wi fi,i was surprised the room is clean,room,clean,Facility,Positive,0.9616
+344,307,the room has everything you need iron clothes dryer hair dryer towels disposable razors are each in a separate package i was surprised the room is clean the air conditioning works fast wi fi,the air conditioning works fast,air conditioning,fast,Facility,Positive,0.9961
+345,307,the room has everything you need iron clothes dryer hair dryer towels disposable razors are each in a separate package i was surprised the room is clean the air conditioning works fast wi fi,wi fi,wi fi,,Service,Neutral,0.5673
+346,308,thank you very much,thank you very much,,thank,Service,Positive,0.9932
+347,309,the manor complex is old old furniture,the manor complex is old,manor complex,old,Amenity,Neutral,0.5184
+348,309,the manor complex is old old furniture,old furniture,furniture,old,Facility,Negative,0.571
+349,310,this doesn t bother me but it might be important to other visitors,this doesn t bother me,,doesn t bother,Experience,Positive,0.5843
+350,310,this doesn t bother me but it might be important to other visitors,it might be important to other visitors,visitor,important,Service,Neutral,0.9733
+351,314,dino is super nice always quick to react for any request and speaks english well,dino is super nice,,super nice,Service,Positive,0.9754
+352,314,dino is super nice always quick to react for any request and speaks english well,dino is always quick to react for any request,,quick to react,Service,Positive,0.9885
+353,314,dino is super nice always quick to react for any request and speaks english well,dino speaks english well,,speaks english well,Service,Positive,0.8666
+354,316,spacious apartment beautiful rooftop pool,spacious apartment,apartment,spacious,Facility,Positive,0.9954
+355,316,spacious apartment beautiful rooftop pool,beautiful rooftop pool,pool,beautiful,Facility,Positive,0.972
+356,319,we loved the pool just like in the pictures,we loved the pool just like in the pictures,pool,loved,Facility,Positive,0.9859
+357,320,there are only two lifts that take you to level 25 for access to the pool,there are only two lifts that take you to level 25 for access to the pool,lifts,,Amenity,Positive,0.5353
+358,321,the apartment was bright and clean fantastic shower,the apartment was bright and clean,apartment,"bright, clean",Facility,Positive,0.9975
+359,321,the apartment was bright and clean fantastic shower,fantastic shower,shower,fantastic,Facility,Positive,0.9895
+360,322,great view at night with all the buildings lit up,great view at night with all the buildings lit up,view,great,Experience,Positive,0.975
+361,323,the location quite far from all the sights,the location quite far from all the sights,location,quite far,Amenity,Negative,0.9538
+362,324,mrt nearby and grab is cheap enough,mrt nearby and grab is cheap enough,,"nearby,cheap enough",Amenity,Positive,0.7719
+363,325,you got what you paid for,you got what you paid for,,,Experience,Neutral,0.6861
+364,326,the location,the location,location,,Amenity,Neutral,0.9479
+365,327,too ripped off parking fee,too ripped off parking fee,parking fee,too ripped off,Amenity,Negative,0.9496
+366,328,great little apartment pool lovely with a great view,great little apartment pool,apartment pool,"great, little",Facility,Positive,0.9903
+367,328,great little apartment pool lovely with a great view,lovely with a great view,view,great,Experience,Positive,0.9939
+368,330,also near the tram stop,also near the tram stop,,near,Amenity,Positive,0.8474
+369,331,host is very hands on for any problems or queries,host is very hands on for any problems or queries,host,very hands on,Service,Positive,0.9557
+370,332,that it s cash only,that it s cash only,,cash only,Amenity,Neutral,0.5189
+371,333,very good,very good,,very good,Experience,Positive,0.9977
+372,335,convenience is nice rental,convenience is nice,convenience,nice,Service,Positive,0.9588
+373,335,convenience is nice rental,rental,rental,,Service,Neutral,0.982
+374,336,good experience,good experience,experience,good,Experience,Positive,0.988
+375,337,perfect for ho chi minh,perfect for ho chi minh,,perfect,Branding,Positive,0.8665
+376,338,tastefully furnished functional furnished and clean apartment with an exceptional view,tastefully furnished,,tastefully furnished,Facility,Positive,0.9964
+377,338,tastefully furnished functional furnished and clean apartment with an exceptional view,functional furnished,,functional furnished,Facility,Positive,0.9972
+378,338,tastefully furnished functional furnished and clean apartment with an exceptional view,clean apartment,apartment,clean,Facility,Positive,0.984
+379,338,tastefully furnished functional furnished and clean apartment with an exceptional view,with an exceptional view,view,exceptional,Experience,Positive,0.9832
+380,339,very kind of you,very kind of you,,very kind,Service,Positive,0.997
+381,340,very good,very good,,very good,Experience,Positive,0.9977
+382,342,the best of saigon,the best of saigon,saigon,best,Branding,Positive,0.9846
+383,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,host diny is the best we found in all of asia,host,best,Service,Positive,0.9828
+384,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,helps you in everything you can,host,helps,Service,Positive,0.9752
+385,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,gives many tips,host,gives many tips,Service,Positive,0.9952
+386,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,where to go to do the transportation,transportation,,Amenity,Neutral,0.9346
+387,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,plus left us one and a half later on the check out,,plus,Service,Positive,0.9685
+388,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,the apartment is comfortable,apartment,comfortable,Experience,Positive,0.9958
+389,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,clean,apartment,clean,Facility,Positive,0.9832
+390,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,two large towels for each,towels,large,Facility,Positive,0.59
+391,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,has everything you need for a nice stay in saigon,stay,nice,Experience,Positive,0.9625
+392,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,the views of the city spectacular,view,spectacular,Experience,Positive,0.9964
+393,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,the building has some mini market downstairs,building,has some mini market downstairs,Amenity,Positive,0.6667
+394,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,the pool with great views,pool,great views,Facility,Positive,0.928
+395,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,i recommend it,pool,recommend,Loyalty,Positive,0.9857
+396,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,is a great place,pool,great,Branding,Positive,0.9853
+397,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,thank you diny,,thank,Service,Positive,0.9274
+398,343,host diny is the best we found in all of asia helps you in everything you can gives many tips where to go to do the transportation plus left us one and a half later on the check out the apartment is comfortable clean two large towels for each has everything you need for a nice stay in saigon the views of the city spectacular the building has some mini market downstairs the pool with great views i recommend it is a great place thank you diny don t change,don t change,,don t change,Loyalty,Positive,0.9684
+399,344,nada,nada,,,Experience,Neutral,0.8895
+400,348,,the staff was really helpful,staff,really helpful,Service,Positive,0.9925
+401,348,,the room was clean and comfortable,room,"clean,comfortable",Facility,Positive,0.9977
+402,348,,the hotel provided free breakfast,hotel,provided free breakfast,Service,Positive,0.9438
+403,348,,the service was fast and efficient,service,"fast,efficient",Service,Positive,0.9979
+404,348,,the location was central and convenient,location,"central,convenient",Amenity,Positive,0.9956
+405,349,very good,very good,,very good,Experience,Positive,0.9977
+406,352,very good,very good,,very good,Experience,Positive,0.9977
+407,353,i liked everything clean everything is there good neighborhood comfortable residential complex near cafes shops,i liked everything clean,,liked everything clean,Facility,Positive,0.9939
+408,353,i liked everything clean everything is there good neighborhood comfortable residential complex near cafes shops,everything is there good neighborhood,neighborhood,good,Experience,Positive,0.9937
+409,353,i liked everything clean everything is there good neighborhood comfortable residential complex near cafes shops,comfortable residential complex,residential complex,comfortable,Amenity,Positive,0.9968
+410,353,i liked everything clean everything is there good neighborhood comfortable residential complex near cafes shops,near cafes shops,"cafes,shops",near,Amenity,Neutral,0.977
+411,354,the owner is a very nice and kind person,the owner is a very nice and kind person,owner,"very nice, kind",Service,Positive,0.987
+412,355,everything was fine,everything was fine,,fine,Experience,Positive,0.7812
+413,356,there was a bit of noise from the neighbors at night but it didn t spoil the overall impression of the accommodation,there was a bit of noise from the neighbors at night,,a bit of noise,Amenity,Negative,0.8464
+414,356,there was a bit of noise from the neighbors at night but it didn t spoil the overall impression of the accommodation,it didn t spoil the overall impression of the accommodation,accommodation,didn t spoil the overall impression,Experience,Positive,0.7972
+415,357,very good,very good,,very good,Experience,Positive,0.9977
+416,359,we highly recommend it thank you diny,we highly recommend it,,highly recommend,Loyalty,Positive,0.9936
+417,359,we highly recommend it thank you diny,thank you diny,,thank,Service,Positive,0.9274
+418,360,very good,very good,,very good,Experience,Positive,0.9977
+419,361,bardzo dobry kontakt z gospodarzem,bardzo dobry kontakt z gospodarzem,kontakt,dobry,Facility,Positive,0.9918
+420,364,no i wisienka na torcie czyli basen na 25 pi trze z genialnym widokiem na miasto mo na si fajnie zrelaksowa,no i wisienka na torcie czyli basen na 25 pi trze z genialnym widokiem na miasto mo na si fajnie zrelaksowa,,genialnym widokiem,Facility,Positive,0.9061
+421,365,nic please,nic please,,,Service,Negative,0.7482
+422,367,very good,very good,,very good,Experience,Positive,0.9977
+423,368,l g n ra parken d r du kunde hitta p massvis med att g ra,l g n ra parken d r du kunde hitta p massvis med att g ra,parken,g ra,Facility,Neutral,0.7809
+424,370,everything is nickel nothing to say nice spacious room with a magnificent view on the 17th floor of the whole city,everything is nickel nothing to say,,nothing to say,Experience,Positive,0.9138
+425,370,everything is nickel nothing to say nice spacious room with a magnificent view on the 17th floor of the whole city,nice spacious room,room,"nice, spacious",Facility,Positive,0.9978
+426,370,everything is nickel nothing to say nice spacious room with a magnificent view on the 17th floor of the whole city,with a magnificent view on the 17th floor of the whole city,view,magnificent,Experience,Positive,0.9537
+427,372,very good,very good,,very good,Experience,Positive,0.9977
+428,373,it s the second time i ve been there,it s the second time i ve been there,,second time,Loyalty,Positive,0.9711
+429,374,it s perfect again,it s perfect again,,perfect,Branding,Positive,0.9955
+430,375,the staff is always in touch,the staff is always in touch,staff,in touch,Service,Positive,0.9858
+431,377,,the staff was very friendly,staff,very friendly,Service,Positive,0.995
+432,377,,the room was clean and spacious,room,"clean,spacious",Facility,Positive,0.9975
+433,377,,the breakfast was delicious,breakfast,delicious,Experience,Positive,0.9858
+434,377,,the hotel has excellent service,hotel,has excellent service,Branding,Positive,0.9901
+435,377,,the location is convenient,location,convenient,Amenity,Positive,0.992
+436,380,it s a very good pool there s always a shortage of people,it s a very good pool,pool,very good,Facility,Positive,0.994
+437,380,it s a very good pool there s always a shortage of people,there s always a shortage of people,people,shortage,Amenity,Negative,0.7362
+438,384,great apartment for its price in ho chi minh city good residential complex,great apartment for its price in ho chi minh city,apartment,great,Branding,Positive,0.9749
+439,384,great apartment for its price in ho chi minh city good residential complex,good residential complex,residential complex,good,Amenity,Positive,0.9946
+440,385,the owner was very attentive,the owner was very attentive,owner,very attentive,Service,Positive,0.9927
+441,386,the view from the window is amazing especially at night,the view from the window is amazing,view,amazing,Experience,Positive,0.9906
+442,386,the view from the window is amazing especially at night,especially at night,view,especially at night,Experience,Positive,0.6112
+443,387,it s a bit far from the center but on the one hand walking is also useful especially after a long flight and then we bought a sim downloaded the grab app and we had no problems getting there at all,it s a bit far from the center,,far,Amenity,Negative,0.8981
+444,387,it s a bit far from the center but on the one hand walking is also useful especially after a long flight and then we bought a sim downloaded the grab app and we had no problems getting there at all,but on the one hand walking is also useful especially after a long flight,walking,useful,Amenity,Positive,0.3953
+445,387,it s a bit far from the center but on the one hand walking is also useful especially after a long flight and then we bought a sim downloaded the grab app and we had no problems getting there at all,and then we bought a sim downloaded the grab app,app,,Amenity,Neutral,0.973
+446,387,it s a bit far from the center but on the one hand walking is also useful especially after a long flight and then we bought a sim downloaded the grab app and we had no problems getting there at all,and we had no problems getting there at all,,no problems,Experience,Positive,0.9057
+447,390,i enjoyed my stay in dunne s clean beautiful apartment complete with kitchen utensils cleanliness quiet and a beautiful swimming pool,i enjoyed my stay in dunne s clean beautiful apartment,stay,enjoyed,Experience,Positive,0.9975
+448,390,i enjoyed my stay in dunne s clean beautiful apartment complete with kitchen utensils cleanliness quiet and a beautiful swimming pool,dunne s clean beautiful apartment complete with kitchen utensils,apartment,"clean, beautiful",Branding,Positive,0.9978
+449,390,i enjoyed my stay in dunne s clean beautiful apartment complete with kitchen utensils cleanliness quiet and a beautiful swimming pool,cleanliness,cleanliness,,Facility,Positive,0.9509
+450,390,i enjoyed my stay in dunne s clean beautiful apartment complete with kitchen utensils cleanliness quiet and a beautiful swimming pool,quiet,,quiet,Experience,Positive,0.9824
+451,390,i enjoyed my stay in dunne s clean beautiful apartment complete with kitchen utensils cleanliness quiet and a beautiful swimming pool,a beautiful swimming pool,swimming pool,beautiful,Facility,Positive,0.991
+452,391,it s a really great site,it s a really great site,site,great,Branding,Positive,0.9976
+453,392,it was nothing,it was nothing,,nothing,Branding,Neutral,0.6409
+454,393,impeccable value for money,impeccable value for money,,impeccable value for money,Amenity,Positive,0.9886
+455,394,it s a spacious well located apartment,it s a spacious well located apartment,apartment,"spacious, well located",Branding,Positive,0.9979
+456,396,very good,very good,,very good,Experience,Positive,0.9977
+457,397,the host was friendly and thoughtful,the host was friendly,host,friendly,Service,Positive,0.99
+458,397,the host was friendly and thoughtful,the host was thoughtful,host,thoughtful,Service,Positive,0.9788
+459,398,very good,very good,,very good,Experience,Positive,0.9977
+460,399,it was perfect diny gave me a great welcome and recommended me restaurants and places to visit,it was perfect,,perfect,Branding,Positive,0.9967
+461,399,it was perfect diny gave me a great welcome and recommended me restaurants and places to visit,diny gave me a great welcome,,great welcome,Service,Positive,0.9518
+462,399,it was perfect diny gave me a great welcome and recommended me restaurants and places to visit,recommended me restaurants and places to visit,restaurant,recommended,Loyalty,Positive,0.725
+463,400,the room is huge and the pool on the roof has an incredible view,the room is huge,room,huge,Facility,Positive,0.9954
+464,400,the room is huge and the pool on the roof has an incredible view,the pool on the roof has an incredible view,pool,incredible view,Facility,Positive,0.9563
+465,401,i advise you,i advise you,,advise,Loyalty,Positive,0.989
+466,402,the best place to stay in ho chi minh city,the best place to stay in ho chi minh city,place,best,Branding,Positive,0.9661
+467,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,we stayed for two nights just before returning home,,,Experience,Neutral,0.9322
+468,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,the owner was very welcoming and kind,owner,"very welcoming, kind",Service,Positive,0.9927
+469,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,and sent us pictures of the room in advance,owner,sent us,Service,Positive,0.5693
+470,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,and answered questions and requests such as how to pay,owner,answered questions and requests,Service,Positive,0.9675
+471,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,the room was clean and spacious with a great view,room,"clean, spacious, great view",Facility,Positive,0.9967
+472,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc,"kitchen,washing machine,dishwasher","automatic, full",Facility,Neutral,0.8962
+473,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,it was very comfortable on the first floor,,comfortable,Experience,Positive,0.9924
+474,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,there was a seven bathroom at the roof with a nice view,bathroom,nice view,Facility,Neutral,0.7313
+475,403,we stayed for two nights just before returning home the owner was very welcoming and kind and sent us pictures of the room in advance and answered questions and requests such as how to pay the room was clean and spacious with a great view a kitchen and a full automatic washing machine with cooking utensils and a dishwasher etc it was very comfortable on the first floor there was a seven bathroom at the roof with a nice view and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,Clause: and a pool with hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot hot,pool,,Facility,Neutral,0.95
+476,404,i don t know,i don t know,,don t know,Experience,Neutral,0.876
+477,405,very good,very good,,very good,Experience,Positive,0.9977
+478,406,from the meeting to the location everything was top notch thank you very much,from the meeting to the location everything was top notch,location,top notch,Amenity,Positive,0.996
+479,406,from the meeting to the location everything was top notch thank you very much,thank you very much,,thank,Service,Positive,0.9932
+480,407,very good,very good,,very good,Experience,Positive,0.9977
+481,408,she was a very nice lovely owner,she was a very nice lovely owner,owner,"very nice, lovely",Service,Positive,0.9966
+482,411,very nice apartment were there for 4 days and can really only report good,very nice apartment,apartment,very nice,Branding,Positive,0.9971
+483,411,very nice apartment were there for 4 days and can really only report good,were there for 4 days,apartment,,Experience,Neutral,0.9197
+484,411,very nice apartment were there for 4 days and can really only report good,can really only report good,,good,Experience,Positive,0.9886
+485,414,location was a bit out of the way about a 45 minute walk to the center but with a tomb everything could be reached quickly and cheaply,location was a bit out of the way about a 45 minute walk to the center,location,a bit out of the way,Amenity,Negative,0.8931
+486,414,location was a bit out of the way about a 45 minute walk to the center but with a tomb everything could be reached quickly and cheaply,with a tomb everything could be reached quickly and cheaply,,"quickly,cheaply",Amenity,Positive,0.9207
+487,415,please note the gym in the building is not included in the price,please note the gym in the building is not included in the price,gym,not included,Amenity,Negative,0.6294
+488,416,fantastic apartment at the manor hotel,fantastic apartment at the manor hotel,apartment,fantastic,Branding,Positive,0.9922
+489,419,the pool is stunning with a magnificent view,the pool is stunning with a magnificent view,pool,"stunning, magnificent",Facility,Positive,0.9842
+490,420,nothing at all,nothing at all,,nothing at all,Experience,Negative,0.7589
+491,421,very good,very good,,very good,Experience,Positive,0.9977
+492,423,there s a convenience store on the first floor and the hostel has all the cooking facilities the fridge the washing machine the electronics and i think it s a good place to stay for a long time,there s a convenience store on the first floor,convenience store,,Amenity,Neutral,0.9187
+493,423,there s a convenience store on the first floor and the hostel has all the cooking facilities the fridge the washing machine the electronics and i think it s a good place to stay for a long time,the hostel has all the cooking facilities the fridge the washing machine the electronics,hostel,has all the cooking facilities,Facility,Positive,0.617
+494,423,there s a convenience store on the first floor and the hostel has all the cooking facilities the fridge the washing machine the electronics and i think it s a good place to stay for a long time,i think it s a good place to stay for a long time,hostel,good,Branding,Positive,0.9921
+495,425,it s also a big advantage to have free looptop grass,it s also a big advantage to have free looptop grass,free looptop grass,big advantage,Facility,Positive,0.9672
+496,427,there s not a lot of places to walk around and eat but you could order from the grab so it wasn t a big problem,there s not a lot of places to walk around and eat,place,not a lot of,Amenity,Negative,0.7343
+497,427,there s not a lot of places to walk around and eat but you could order from the grab so it wasn t a big problem,but you could order from the grab so it wasn t a big problem,,wasn t a big problem,Amenity,Positive,0.6592
+498,428,magnifique,magnifique,,magnifique,Experience,Positive,0.9916
+499,430,you can go with your eyes closed i highly recommend thank you again,you can go with your eyes closed,,,Experience,Positive,0.9459
+500,430,you can go with your eyes closed i highly recommend thank you again,i highly recommend,,highly recommend,Loyalty,Positive,0.9901
+501,430,you can go with your eyes closed i highly recommend thank you again,thank you again,,thank,Service,Positive,0.9634
+502,432,very good,very good,,very good,Experience,Positive,0.9977
+503,433,very friendly host,very friendly host,host,friendly,Service,Positive,0.9805
+504,434,it s a nice place with a nice view from the window,it s a nice place with a nice view from the window,"place,view","nice, nice",Branding,Positive,0.9965
+505,435,it s a spacious room,it s a spacious room,room,spacious,Facility,Positive,0.996
+506,436,a pool with a good view,a pool with a good view,pool,good view,Facility,Positive,0.9202
+507,439,i booked for 20 days,i booked for 20 days,,,Experience,Neutral,0.973
+508,440,really high,really high,,really high,Experience,Neutral,0.9277
+509,441,it s super comfortable and on top of it it s very clean so we can ask for housekeeping if we need it,it s super comfortable,,super comfortable,Experience,Positive,0.998
+510,441,it s super comfortable and on top of it it s very clean so we can ask for housekeeping if we need it,it s very clean,,very clean,Facility,Positive,0.9969
+511,441,it s super comfortable and on top of it it s very clean so we can ask for housekeeping if we need it,so we can ask for housekeeping if we need it,housekeeping,,Service,Neutral,0.476
+512,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,not far from the city center,,not far,Amenity,Positive,0.853
+513,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,well secured,,well secured,Amenity,Positive,0.9745
+514,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,the room on the 4th floor,room,,Facility,Neutral,0.8631
+515,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,despite the building being on the main road,building,on the main road,Amenity,Negative,0.9066
+516,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,no noisewell equipped,room,no noisewell equipped,Facility,Positive,0.997
+517,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,no noisewell equipped washing machine ,washing machine,no noisewell equipped,Facility,Negative,0.9695
+518,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,no noisewell equipped hot water,hot water,no noisewell equipped,Service,Negative,0.9032
+519,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,no noisewell equipped air conditioning,air conditioning,no noisewell equipped,Facility,Negative,0.9043
+520,442,not far from the city center well securedthe room on the 4th floor despite the building being on the main road no noisewell equipped washing machine hot water air conditioning we need it because it s hot ironing kitchen etc,we need it because it s hot ironing kitchen etc,air conditioning,we need,Facility,Neutral,0.5044
+521,443,there s also a garbage dump not too far away to avoid the food smell if you re staying long also at this price the outdoor pool on the 25th floor cleaned and maintained by the building s staff we can t find better,there s also a garbage dump not too far away to avoid the food smell if you re staying long,garbage dump,not too far away to avoid the food smell,Amenity,Positive,0.5488
+522,443,there s also a garbage dump not too far away to avoid the food smell if you re staying long also at this price the outdoor pool on the 25th floor cleaned and maintained by the building s staff we can t find better,also at this price the outdoor pool on the 25th floor cleaned and maintained by the building s staff,outdoor pool,cleaned and maintained by the building s staff,Facility,Positive,0.6906
+523,443,there s also a garbage dump not too far away to avoid the food smell if you re staying long also at this price the outdoor pool on the 25th floor cleaned and maintained by the building s staff we can t find better,we can t find better,,can t find better,Experience,Positive,0.9752
+524,444,i m sorry about that,i m sorry about that,,sorry,Service,Negative,0.653
+525,445,very good,very good,,very good,Experience,Positive,0.9977
+526,446,the rooftop pool is appreciated in such a hot city,the rooftop pool is appreciated,rooftop pool,appreciated,Facility,Positive,0.9777
+527,446,the rooftop pool is appreciated in such a hot city,in such a hot city,city,hot,Branding,Negative,0.8978
+528,447,the owner is very hospitable and kind let us check out later,the owner is very hospitable and kind,owner,"very hospitable, kind",Service,Positive,0.9902
+529,447,the owner is very hospitable and kind let us check out later,let us check out later,check out,,Service,Neutral,0.9834
+530,448,nada,nada,,,Experience,Neutral,0.8895
+531,449,very good,very good,,very good,Experience,Positive,0.9977
+532,450,accessible and pleasant 7 eleven pool just down the hall,accessible and pleasant,pool,"accessible, pleasant",Amenity,Positive,0.9924
+533,450,accessible and pleasant 7 eleven pool just down the hall,7 eleven pool just down the hall,pool,just down the hall,Amenity,Positive,0.9659
+534,451,very good,very good,,very good,Experience,Positive,0.9977
+535,452,equipment swimming pool service,equipment,equipment,,Facility,Neutral,0.5289
+536,452,equipment swimming pool service,swimming pool,swimming pool,,Facility,Neutral,0.9731
+537,452,equipment swimming pool service,service,service,,Service,Neutral,0.9698
+538,453,nh manager is friendly organizing and very responsive,nh manager is friendly,manager,friendly,Service,Positive,0.9854
+539,453,nh manager is friendly organizing and very responsive,organizing,manager,organizing,Service,Positive,0.7187
+540,453,nh manager is friendly organizing and very responsive,very responsive,manager,very responsive,Service,Positive,0.9965
+541,454,it s a great hotel,it s a great hotel,hotel,great,Branding,Positive,0.9943
+542,455,great hotel apartment we spent two nights in this apartment it s big very clean and well equipped,great hotel apartment,apartment,great,Facility,Positive,0.9862
+543,455,great hotel apartment we spent two nights in this apartment it s big very clean and well equipped,we spent two nights in this apartment,apartment,spent two nights,Experience,Neutral,0.9589
+544,455,great hotel apartment we spent two nights in this apartment it s big very clean and well equipped,it s big,apartment,big,Branding,Positive,0.8066
+545,455,great hotel apartment we spent two nights in this apartment it s big very clean and well equipped,very clean,apartment,very clean,Branding,Positive,0.9961
+546,455,great hotel apartment we spent two nights in this apartment it s big very clean and well equipped,and well equipped,apartment,well equipped,Facility,Positive,0.9942
+547,456,the shower is large and closed rare in vietnam there is a kitchen and a laundry dryer which is a huge plus the apartment is well located about 15 minutes by taxi from the 1 dinh district is very nice helpful and welcomes you sends you messages for all the information wifi codes and others he even made us come back early there is a swimming pool but i have not been there i recommend this apartment with my eyes closed,the shower is large and closed rare in vietnam,shower,"large, closed rare",Facility,Positive,0.9572
+548,456,the shower is large and closed rare in vietnam there is a kitchen and a laundry dryer which is a huge plus the apartment is well located about 15 minutes by taxi from the 1 dinh district is very nice helpful and welcomes you sends you messages for all the information wifi codes and others he even made us come back early there is a swimming pool but i have not been there i recommend this apartment with my eyes closed,there is a kitchen and a laundry dryer which is a huge plus,"kitchen,laundry dryer",huge plus,Facility,Positive,0.9423
+549,456,the shower is large and closed rare in vietnam there is a kitchen and a laundry dryer which is a huge plus the apartment is well located about 15 minutes by taxi from the 1 dinh district is very nice helpful and welcomes you sends you messages for all the information wifi codes and others he even made us come back early there is a swimming pool but i have not been there i recommend this apartment with my eyes closed,the apartment is well located about 15 minutes by taxi from the 1 dinh district,apartment,well located,Amenity,Positive,0.975
+550,456,the shower is large and closed rare in vietnam there is a kitchen and a laundry dryer which is a huge plus the apartment is well located about 15 minutes by taxi from the 1 dinh district is very nice helpful and welcomes you sends you messages for all the information wifi codes and others he even made us come back early there is a swimming pool but i have not been there i recommend this apartment with my eyes closed,is very nice helpful and welcomes you sends you messages for all the information wifi codes and others,,"nice, helpful, welcomes, sends, messages, information, wifi codes, others",Service,Positive,0.9954
+551,456,the shower is large and closed rare in vietnam there is a kitchen and a laundry dryer which is a huge plus the apartment is well located about 15 minutes by taxi from the 1 dinh district is very nice helpful and welcomes you sends you messages for all the information wifi codes and others he even made us come back early there is a swimming pool but i have not been there i recommend this apartment with my eyes closed,he even made us come back early,,made us come back early,Service,Negative,0.8963
+552,456,the shower is large and closed rare in vietnam there is a kitchen and a laundry dryer which is a huge plus the apartment is well located about 15 minutes by taxi from the 1 dinh district is very nice helpful and welcomes you sends you messages for all the information wifi codes and others he even made us come back early there is a swimming pool but i have not been there i recommend this apartment with my eyes closed,there is a swimming pool but i have not been there,swimming pool,,Facility,Positive,0.8514
+553,456,the shower is large and closed rare in vietnam there is a kitchen and a laundry dryer which is a huge plus the apartment is well located about 15 minutes by taxi from the 1 dinh district is very nice helpful and welcomes you sends you messages for all the information wifi codes and others he even made us come back early there is a swimming pool but i have not been there i recommend this apartment with my eyes closed,i recommend this apartment with my eyes closed,apartment,recommend,Loyalty,Positive,0.9031
+554,458,p s remember to buy laundry before you arrive,p s remember to buy laundry before you arrive,laundry,,Facility,Neutral,0.489
+555,461,the owner has always been kind and available to any of our requests we highly recommend him thank you dinh,the owner has always been kind and available to any of our requests,owner,"kind, available",Service,Positive,0.9948
+556,461,the owner has always been kind and available to any of our requests we highly recommend him thank you dinh,we highly recommend him,,highly recommend,Loyalty,Positive,0.9943
+557,461,the owner has always been kind and available to any of our requests we highly recommend him thank you dinh,thank you dinh,,thank,Service,Positive,0.5798
+558,462,i don t know,i don t know,,don t know,Experience,Neutral,0.876
+559,464,apartament jest bardzo przestronny,apartament jest bardzo przestronny,apartament,,Facility,Negative,0.5059
+560,465,netflix dzia a do tego pralka i suszarka,netflix dzia a do tego pralka i suszarka,,,Facility,Positive,0.8134
+561,466,wietny widok prosto z ka apartament na 12 pietrze od strony okna tylko nizsze zabudowania,wietny widok prosto z ka apartament na 12 pietrze od strony okna,,,Facility,Positive,0.9858
+562,466,wietny widok prosto z ka apartament na 12 pietrze od strony okna tylko nizsze zabudowania,tylko nizsze zabudowania,,,Facility,Positive,0.7775
+563,467,bardzo dobry wyb r na d u sze pobyty,bardzo dobry wyb r na d u sze pobyty,,,Facility,Positive,0.9974
+564,468,brak baru przy basenie,brak baru przy basenie,,,Facility,Negative,0.9479
+565,470,the accommodation was excellent,the accommodation was excellent,accommodation,excellent,Branding,Positive,0.9897
+566,471,,The service was excellent,service,excellent,Service,Positive,0.9933
+567,471,,the staff was friendly,staff,friendly,Service,Positive,0.9932
+568,471,,the room was clean,room,clean,Facility,Positive,0.9951
+569,471,,the view from the balcony was amazing,view,amazing,Experience,Positive,0.9924
+570,471,,the breakfast was delicious,breakfast,delicious,Experience,Positive,0.9858
+571,471,,the noise level was high,noise level,high,Amenity,Negative,0.984
+572,472,very good,very good,,very good,Experience,Positive,0.9977
+573,474,majitel diny je neuv iteln starostliv a p telsk lov k,majitel diny je neuv iteln starostliv,,,Facility,Positive,0.9931
+574,474,majitel diny je neuv iteln starostliv a p telsk lov k,p telsk lov k,,,Branding,Positive,0.5554
+575,475,doporu il mi spoustu zaj mav ch m st a akc kter jsem b hem sv ho pobytu v ho chi minov m st mohl nav t vit,doporu il mi spoustu zaj mav ch m st a akc kter jsem b hem sv ho pobytu v ho chi minov m st mohl nav t vit,,,Facility,Positive,0.5279
+576,476,byli jsme spolu v kontaktu po celou dobu m ho pobytu a trouf m si ct e jsme se stali p teli,byli jsme spolu v kontaktu po celou dobu m ho pobytu,,,Facility,Positive,0.6468
+577,476,byli jsme spolu v kontaktu po celou dobu m ho pobytu a trouf m si ct e jsme se stali p teli,trouf m si ct e jsme se stali p teli,,,Loyalty,Positive,0.7617
+578,477,apartm n byl perfektn ist a vo av,apartm n byl perfektn ist a vo av,,perfektn,Service,Positive,0.9678
+579,478,na pokoji m te k dispozici pra ku i su i ku,na pokoji m te k dispozici pra ku i su i ku,,,Facility,Positive,0.9267
+580,479,z okna ve 12,z okna ve 12,,,Facility,Positive,0.5251
+581,481,t e ni kou na dortu je skv l baz n ve 25,t e ni kou na dortu je skv l baz n ve 25,,,Facility,Positive,0.7658
+582,482,pat e kter m ete vyu vat zcela zdarma,pat e kter m ete vyu vat zcela zdarma,,,Facility,Positive,0.8653
+583,486,l bilo se mi pln v e,l bilo se mi pln v e,,,Branding,Positive,0.8969
+584,487,lovely room with everything on it lovely bed and a nice swimming pool,lovely room with everything on it,room,lovely,Facility,Positive,0.9931
+585,487,lovely room with everything on it lovely bed and a nice swimming pool,lovely bed,bed,lovely,Facility,Positive,0.8925
+586,487,lovely room with everything on it lovely bed and a nice swimming pool,a nice swimming pool,swimming pool,nice,Facility,Positive,0.994
+587,488,lekker rustig en heel luxe,lekker rustig en heel luxe,,"rustig, luxe",Facility,Positive,0.9968
+588,491,the boss is very enthusiastic,the boss is very enthusiastic,boss,very enthusiastic,Service,Positive,0.9497
+589,494,a magnified apartment in saigon,a magnified apartment in saigon,apartment,magnified,Branding,Neutral,0.6901
+590,495,very comfortable and everything perfect,very comfortable,,very comfortable,Facility,Positive,0.9973
+591,495,very comfortable and everything perfect,everything perfect,,perfect,Experience,Positive,0.9969
+592,496,the manager was constantly concerned that everything was perfect and i just had to enjoy it,the manager was constantly concerned that everything was perfect,manager,perfect,Service,Positive,0.9291
+593,496,the manager was constantly concerned that everything was perfect and i just had to enjoy it,i just had to enjoy it,,enjoy,Experience,Positive,0.9596
+594,497,the overall assessment is general sex is expensive,the overall assessment is general sex is expensive,overall assessment,expensive,Experience,Negative,0.9435
+595,498,the hosts were very good and very friendly,the hosts were very good,hosts,very good,Service,Positive,0.9869
+596,498,the hosts were very good and very friendly,the hosts were very friendly,hosts,very friendly,Service,Positive,0.9913
+597,499,the housing facilities are rather old the ground is too slippery barefoot must pay attention i have fallen a bit,the housing facilities are rather old,housing facilities,old,Facility,Negative,0.9264
+598,499,the housing facilities are rather old the ground is too slippery barefoot must pay attention i have fallen a bit,the ground is too slippery barefoot must pay attention,ground,slippery,Facility,Negative,0.9791
+599,499,the housing facilities are rather old the ground is too slippery barefoot must pay attention i have fallen a bit,i have fallen a bit,ground,fallen,Experience,Negative,0.527
+600,500,it s really bad,it s really bad,,bad,Experience,Negative,0.9917
