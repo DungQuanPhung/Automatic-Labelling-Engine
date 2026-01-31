@@ -8,7 +8,6 @@ from langdetect import detect
 from config import DEVICE, TRAINING_CONFIG, OUTPUT_DIR_ROBERTA, SAVE_PATH_ROBERTA
 from model_loader import load_roberta_for_classification
 
-
 def train_category_classifier(goal_df):
     """
     Fine-tune RoBERTa cho category classification với LoRA
@@ -92,7 +91,6 @@ def train_category_classifier(goal_df):
     print(f"\n✅ Fine-tuning hoàn tất! Model đã được lưu tại: {SAVE_PATH_ROBERTA}")
     
     return model, tokenizer, label2id, id2label
-
 
 def extract_category(clauses, model, tokenizer, id2label):
     """

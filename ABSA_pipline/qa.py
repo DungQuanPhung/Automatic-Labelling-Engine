@@ -30,7 +30,6 @@ def load_and_preprocess_data(file_path, column_name, output_column='human_catego
     
     return data
 
-
 def merge_multiple_annotators(data_list):
     """
     Merge data từ nhiều annotators
@@ -43,7 +42,6 @@ def merge_multiple_annotators(data_list):
     """
     df_merged = pd.concat(data_list, axis=0, ignore_index=True)
     return df_merged
-
 
 def calculate_agreement(annotator1_data, annotator2_data):
     """
@@ -58,7 +56,6 @@ def calculate_agreement(annotator1_data, annotator2_data):
     """
     agreement = (annotator1_data == annotator2_data).mean()
     return agreement
-
 
 def calculate_cohens_kappa(annotator1_data, annotator2_data, weights=None):
     """
@@ -79,7 +76,6 @@ def calculate_cohens_kappa(annotator1_data, annotator2_data, weights=None):
     )
     return kappa
 
-
 def save_merged_data(data, output_path):
     """
     Lưu merged data ra file CSV
@@ -90,7 +86,6 @@ def save_merged_data(data, output_path):
     """
     data.to_csv(output_path, index=False)
     print(f"✅ Saved data to: {output_path}")
-
 
 def analyze_inter_annotator_agreement(
     annotator1_path,
@@ -166,7 +161,6 @@ def analyze_inter_annotator_agreement(
     
     return results
 
-
 def analyze_confusion_matrix(annotator1_data, annotator2_data, labels=None):
     """
     Tạo confusion matrix giữa 2 annotators
@@ -187,7 +181,6 @@ def analyze_confusion_matrix(annotator1_data, annotator2_data, labels=None):
     cm_df = pd.DataFrame(cm, index=labels, columns=labels)
     
     return cm_df
-
 
 def find_disagreements(
     annotator1_path,
@@ -230,7 +223,6 @@ def find_disagreements(
         print(f"✅ Saved disagreements to: {output_path}")
     
     return disagreements
-
 
 def calculate_per_category_agreement(
     annotator1_path,
@@ -279,7 +271,6 @@ def calculate_per_category_agreement(
     
     return df_results
 
-
 # ===== MAIN WORKFLOW =====
 
 def main_merge_annotators():
@@ -290,7 +281,7 @@ def main_merge_annotators():
     
     # Load data from 3 sources
     df1 = load_and_preprocess_data('/Quan.csv', 'category')
-    df2 = load_and_preprocess_data('/70% sample (1).csv', 'category')
+    df2 = load_and_preprocess_data('/70% sample.csv', 'category')
     df3 = load_and_preprocess_data('/quân.xlsx', 'human_category')
     
     # Merge
@@ -303,15 +294,14 @@ def main_merge_annotators():
     
     return df_all
 
-
 def main_analyze_two_annotators():
     """
     Workflow để phân tích agreement giữa 2 annotators
     """
     # Analyze agreement
     results = analyze_inter_annotator_agreement(
-        annotator1_path='/qa_tuyen.csv',
-        annotator2_path='/qa_quan.csv',
+        annotator1_path='/Data/qa_tuyen.csv',
+        annotator2_path='/Data/qa_quan.csv',
         column1='human_category',
         column2='human_category',
         verbose=True
@@ -319,8 +309,8 @@ def main_analyze_two_annotators():
     
     # Find disagreements
     disagreements = find_disagreements(
-        annotator1_path='/qa_tuyen.csv',
-        annotator2_path='/qa_quan.csv',
+        annotator1_path='/Data/qa_tuyen.csv',
+        annotator2_path='/Data/qa_quan.csv',
         column1='human_category',
         column2='human_category',
         output_path='disagreements.csv'
@@ -328,14 +318,13 @@ def main_analyze_two_annotators():
     
     # Per-category agreement
     per_cat_results = calculate_per_category_agreement(
-        annotator1_path='/qa_tuyen.csv',
-        annotator2_path='/qa_quan.csv',
+        annotator1_path='/Data/qa_tuyen.csv',
+        annotator2_path='/Data/qa_quan.csv',
         column1='human_category',
         column2='human_category'
     )
     
     return results, disagreements, per_cat_results
-
 
 if __name__ == "__main__":
     # 1. Merge data từ nhiều annotators

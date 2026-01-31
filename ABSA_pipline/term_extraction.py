@@ -11,26 +11,26 @@ def split_sentence_with_terms_llm(sentence, model, tokenizer, max_new_tokens=300
     "Your task is to split the following review sentence into smaller clauses and identify the aspect/term discussed in each clause.\n\n"
 
     "==================== STRICT RULES ====================\n"
-    "1️⃣. DO NOT add, remove, translate, explain, or modify ANY words, symbols, or punctuation in the original sentence.\n"
+    "1️. DO NOT add, remove, translate, explain, or modify ANY words, symbols, or punctuation in the original sentence.\n"
     "   • Every clause must be a **continuous substring** of the original sentence.\n"
     "   • The output must cover **all parts of the sentence** — no content should be ignored or missing.\n"
-    "2️⃣. Only split the sentence where it makes sense semantically — typically around conjunctions ('and', 'but', 'while', 'although', etc.) "
+    "2️. Only split the sentence where it makes sense semantically — typically around conjunctions ('and', 'but', 'while', 'although', etc.) "
     "or when the opinion changes.\n"
     "   •Do NOT split phrases that grammatically or logically belong to the same subject. "
     "   • If a descriptive phrase does not have a clear term in the sentence, keep it as a separate clause but leave Term blank."
-    "3️⃣. Keep the exact original wording and order in each clause. Do NOT reorder, paraphrase, or summarize.\n"
-    "4️⃣. Each clause must express a clear **opinion or evaluative meaning**, either explicit (e.g., 'dirty', 'perfect') or implicit "
+    "3️. Keep the exact original wording and order in each clause. Do NOT reorder, paraphrase, or summarize.\n"
+    "4️. Each clause must express a clear **opinion or evaluative meaning**, either explicit (e.g., 'dirty', 'perfect') or implicit "
     "(e.g., 'gave us many tips' implies helpfulness, 'helped us with departure' implies good service).\n"
-    "5️⃣. Do NOT separate adverbs (e.g., 'really', 'very', 'so', 'too', 'quite', 'extremely', 'absolutely', "
+    "5️. Do NOT separate adverbs (e.g., 'really', 'very', 'so', 'too', 'quite', 'extremely', 'absolutely', "
     "'rather', 'fairly', 'pretty', 'incredibly', 'particularly', 'deeply', 'highly') from the words they modify.\n"
-    "6️⃣. Keep negative or limiting words such as 'nothing', 'none', 'nobody', 'no one', 'nowhere', 'never', "
+    "6️. Keep negative or limiting words such as 'nothing', 'none', 'nobody', 'no one', 'nowhere', 'never', "
     "'hardly', 'barely', 'scarcely', 'without', 'no', 'not' **inside the same clause** — they must not be removed or separated.\n"
-    "7️⃣. Identify the **TERM** being discussed in each clause.\n"
+    "7️. Identify the **TERM** being discussed in each clause.\n"
     "   • TERM: the main aspect or entity being described (e.g., 'staff', 'room', 'hotel').\n"
     "   • If no clear term appears, leave it blank.\n"
-    "8️⃣. Avoid creating meaningless or redundant clauses.\n"
-    "9️⃣. If multiple terms appear in the same clause, separate them with commas.\n"
-    "10️⃣. If a clause refers to the same entity as a previous one but does not repeat it explicitly, "
+    "8️. Avoid creating meaningless or redundant clauses.\n"
+    "9️. If multiple terms appear in the same clause, separate them with commas.\n"
+    "10️. If a clause refers to the same entity as a previous one but does not repeat it explicitly, "
     "**propagate the term from the previous clause**.\n\n"
 
     "==================== COVERAGE REQUIREMENT ====================\n"
@@ -91,7 +91,6 @@ def split_sentence_with_terms_llm(sentence, model, tokenizer, max_new_tokens=300
 
     return result
 
-
 def extract_terms_only_from_sentence(sentence, model, tokenizer, max_new_tokens=20):
     """
     Extract only TERMS (aspects) from whole sentence using LLM.
@@ -144,7 +143,6 @@ def extract_terms_only_from_sentence(sentence, model, tokenizer, max_new_tokens=
         "term": ", ".join(valid_terms) if valid_terms else "",
         "clause": sentence
     }]
-
 
 def extract_terms_only_from_sentence_phi(sentence, model, tokenizer, max_new_tokens=20):
     """
@@ -215,7 +213,6 @@ def extract_terms_only_from_sentence_phi(sentence, model, tokenizer, max_new_tok
         "term": ", ".join(valid_terms) if valid_terms else "",
         "clause": sentence
     }]
-
 
 def split_and_term_extraction(sentence, model, tokenizer):
     """Kết hợp split và term extraction với refinement"""

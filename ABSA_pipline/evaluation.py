@@ -6,7 +6,6 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from model_loader import load_embedding_model
 from text_processing import normalize
 
-
 def exact_match_f1(pred_list, gold_list):
     """Exact match F1 score"""
     tp = sum([1 for g, p in zip(gold_list, pred_list) if g == p])
@@ -16,7 +15,6 @@ def exact_match_f1(pred_list, gold_list):
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
     f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
     return f1
-
 
 def token_f1(pred_list, gold_list):
     """Token-level F1 score"""
@@ -33,7 +31,6 @@ def token_f1(pred_list, gold_list):
     f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
     return f1
 
-
 def rouge_l(pred_list, gold_list):
     """ROUGE-L score"""
     scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
@@ -41,7 +38,6 @@ def rouge_l(pred_list, gold_list):
     for g, p in zip(gold_list, pred_list):
         f_scores.append(scorer.score(g, p)['rougeL'].fmeasure)
     return sum(f_scores) / len(f_scores) if f_scores else 0.0
-
 
 def embedding_similarity(pred_list, gold_list, model):
     """Cosine similarity của sentence embeddings"""
@@ -51,7 +47,6 @@ def embedding_similarity(pred_list, gold_list, model):
         emb_p = model.encode(p)
         sims.append(cosine_similarity([emb_g], [emb_p])[0][0])
     return sum(sims) / len(sims) if sims else 0.0
-
 
 def evaluate_absa(df, pred_prefix='pred_'):
     """
@@ -95,7 +90,6 @@ def evaluate_absa(df, pred_prefix='pred_'):
     
     return results
 
-
 def print_evaluation_results(results):
     """In kết quả đánh giá dạng table"""
     non_disc_metrics = []
@@ -118,7 +112,6 @@ def print_evaluation_results(results):
     print(disc_df.to_string(index=False))
     
     return non_disc_df, disc_df
-
 
 def analyze_errors(df, pred_prefix='pred_'):
     """

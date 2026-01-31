@@ -1,5 +1,4 @@
 import pandas as pd
-from google.colab import drive
 
 # Import các modules
 from config import DEVICE
@@ -8,14 +7,10 @@ from category_classifier import train_category_classifier, extract_category
 from absa_pipeline import absa_pipeline, absa_pipeline_batch_save
 from evaluation import evaluate_absa, print_evaluation_results, analyze_errors
 
-
 def main_train_category_model():
     """Training category classifier"""
-    # Mount Google Drive
-    drive.mount('/content/drive')
-    
     # Load data
-    goal_path = "/content/500 sample.csv"
+    goal_path = "/Data/500 sample.csv"
     goal_df = pd.read_csv(goal_path)
     
     # Train model
@@ -23,11 +18,8 @@ def main_train_category_model():
     
     return model_cat, tokenizer_cat, label2id, id2label
 
-
 def main_run_pipeline_with_qwen():
     """Chạy ABSA pipeline với Qwen model"""
-    # Mount Drive
-    drive.mount('/content/drive')
     
     # Load models
     print("Loading Qwen model...")
@@ -37,7 +29,7 @@ def main_run_pipeline_with_qwen():
     model_cat, tokenizer_cat, label2id, id2label = main_train_category_model()
     
     # Load data
-    df_eval = pd.read_csv('/content/evaluation.csv')
+    df_eval = pd.read_csv('/Data/ABSA_test.csv')
     all_sentences = df_eval["clause"].tolist()
     
     # Run pipeline
@@ -55,11 +47,8 @@ def main_run_pipeline_with_qwen():
         use_phi=False
     )
 
-
 def main_run_pipeline_with_phi3():
     """Chạy ABSA pipeline với Phi-3 model"""
-    # Mount Drive
-    drive.mount('/content/drive')
     
     # Load models
     print("Loading Phi-3 model...")
@@ -69,7 +58,7 @@ def main_run_pipeline_with_phi3():
     model_cat, tokenizer_cat, label2id, id2label = main_train_category_model()
     
     # Load data
-    df_eval = pd.read_csv('/content/evaluation.csv')
+    df_eval = pd.read_csv('/Data/ABSA_test.csv')
     all_sentences = df_eval["clause"].tolist()
     
     # Run pipeline
@@ -87,7 +76,6 @@ def main_run_pipeline_with_phi3():
         use_phi=True
     )
 
-
 def main_simple_pipeline():
     """Chạy pipeline đơn giản không dùng category classifier"""
     # Load model
@@ -95,7 +83,7 @@ def main_simple_pipeline():
     model, tokenizer = load_phi3_model()
     
     # Load data
-    df_eval = pd.read_csv('/content/evaluation.csv')
+    df_eval = pd.read_csv('/Data/ABSA_test.csv')
     all_sentences = df_eval["clause"].tolist()[700:]  # Lấy từ index 700
     
     # Run simple pipeline
@@ -109,7 +97,6 @@ def main_simple_pipeline():
         use_phi=True,
         output_prefix="absa_results"
     )
-
 
 def main_evaluate_results():
     """Đánh giá kết quả"""
@@ -126,13 +113,12 @@ def main_evaluate_results():
     
     # Analyze errors
     errors = analyze_errors(df_merged)
-    print("\n📊 Error Analysis:")
+    print("\nError Analysis:")
     for key, value in errors.items():
         if 'samples' not in key:
             print(f"{key}: {value}")
     
     return results, errors
-
 
 def main_single_sentence_test():
     """Test với một câu đơn"""
@@ -143,11 +129,11 @@ def main_single_sentence_test():
     sentence = "The room was clean but the staff were not very helpful and the location was perfect."
     
     # Run pipeline
-    from term_extraction import extract_terms_only_from_sentence_phi
+    from term_extraction import split_and_term_extraction
     from opinion_extraction import extract_opinions_only_from_clauses
     
-    print("Extracting terms...")
-    clauses = extract_terms_only_from_sentence_phi(sentence, model, tokenizer)
+    print("Splitting into clauses + extracting terms...")
+    clauses = split_and_term_extraction(sentence, model, tokenizer)
     
     print("\nExtracting opinions...")
     clauses = extract_opinions_only_from_clauses(clauses, model, tokenizer)
@@ -158,7 +144,6 @@ def main_single_sentence_test():
         print(f"Term: {c['term']}")
         print(f"Opinion: {c['opinion']}")
         print("-" * 50)
-
 
 if __name__ == "__main__":
     # 1. Train category model

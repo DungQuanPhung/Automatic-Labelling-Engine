@@ -1,7 +1,6 @@
 import re
 from model_loader import chat, chat_phi3
 
-
 def extract_opinions_only_from_clauses(clauses, model, tokenizer, max_new_tokens=40):
     """
     Extract ONLY opinion expressions for each clause in hotel domain.
@@ -29,14 +28,14 @@ def extract_opinions_only_from_clauses(clauses, model, tokenizer, max_new_tokens
         "• Overall: perfect, terrible, disappointing, fantastic\n\n"
 
         "==================== STRICT RULES ====================\n"
-        "1️⃣ Must keep original wording only.\n"
-        "2️⃣ Opinion words must appear exactly in the clause.\n"
-        "3️⃣ Only extract evaluative expressions.\n"
-        "4️⃣ Must describe or evaluate the Term:\n"
+        "1️. Must keep original wording only.\n"
+        "2️. Opinion words must appear exactly in the clause.\n"
+        "3️. Only extract evaluative expressions.\n"
+        "4️. Must describe or evaluate the Term:\n"
         f"     → Term: '{term}'\n"
-        "5️⃣ Do NOT guess or invent opinions.\n"
-        "6️⃣ If no clear opinion: return empty.\n"
-        "7️⃣ Respond ONLY in required format.\n\n"
+        "5️. Do NOT guess or invent opinions.\n"
+        "6️. If no clear opinion: return empty.\n"
+        "7️. Respond ONLY in required format.\n\n"
 
         "==================== OUTPUT FORMAT ====================\n"
         "Opinion: <opinion1, opinion2, ...>\n"

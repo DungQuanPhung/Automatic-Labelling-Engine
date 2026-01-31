@@ -11,7 +11,6 @@ from opinion_extraction import extract_opinions_only_from_clauses
 from category_classifier import extract_category
 from polarity_detector import detect_polarity
 
-
 def absa_pipeline(
     sentences,
     model_llm,
@@ -110,7 +109,6 @@ def absa_pipeline(
         filename = f"{save_path}_final.csv"
         df_final.to_csv(filename, index=False, encoding="utf-8-sig")
         print(f"🎉 Hoàn thành toàn bộ! Kết quả lưu tại: {filename}")
-
 
 def absa_pipeline_batch_save(
     all_sentences,

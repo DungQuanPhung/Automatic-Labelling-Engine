@@ -37,7 +37,6 @@ Translation:
 
     return text
 
-
 def clean_text(text):
     """Làm sạch văn bản"""
     text = str(text).lower()
@@ -45,7 +44,6 @@ def clean_text(text):
     text = re.sub(r"[^a-z0-9\s]", " ", text)     # Bỏ ký tự đặc biệt
     text = re.sub(r"\s+", " ", text).strip()     # Gộp khoảng trắng
     return text
-
 
 def normalize(text):
     """Normalize text về lowercase và strip"""
